@@ -11,16 +11,24 @@
             <img src="../logo/reservia.svg" alt="logo-reservia">
             <nav class="menu">
                 <ul>
-                    <li><a href="#Hébergements">Hébergements</a></li>
-                    <li><a href="#Activités">Activités</a></li>
-                    <li><a href="#s'inscrire">s'inscrire</a></li>
-                  </ul>
+                    <li><a href="#">Hébergements</a></li>
+                    <li><a href="#">Activités</a></li>
+                    <li><a href="#">s'inscrire</a></li>
+                </ul>
             </nav>
         </header>
 
         <!-- RECHERCHE ET FILTRES -->
         <section id="research_filters">
+            <h3>Trouvez votre hébergements pour des vacances de rêve</h3>
+            <form method="post" action="traitement.php">
+                <label for="site-search">En plein centre ville ou en pleine nature</label><br>
+                <input type="search" id="site-search" placeholder="Marseille, France" /> 
+            <button>Rechercher</button>    
+            </form>         
         </section>
+
+
 
         <!-- HEBERGEMENTS ET HEBERGEMENTS LES PLUS POPULAIRES -->
         <section id="main">
