@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf8">
         <title>Reservia - Trouvez votre hébergements pour des vacances de rêve</title>
+        <script src="https://kit.fontawesome.com/78c94e52fa.js" crossorigin="anonymous"></script>  
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -20,12 +21,18 @@
 
         <!-- RECHERCHE ET FILTRES -->
         <section id="research_filters">
-            <h3>Trouvez votre hébergements pour des vacances de rêve</h3>
-            <form method="post" action="traitement.php">
-                <label for="site-search">En plein centre ville ou en pleine nature</label><br>
-                <input type="search" id="site-search" placeholder="Marseille, France" /> 
-            <button>Rechercher</button>    
-            </form>         
+            <div class="txt_find_accomodations">
+            <h1><strong>votre hébergements pour des vacances de rêve</strong></h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            </div>
+            <div class="search">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text"name="town" placeholder="Marseille, France" >
+            </div>
+            <!-- remplacer bt rechercher par logo loupe -->          
+            <div>
+                <button>Rechercher</button>
+            </div>            
         </section>
 
 
