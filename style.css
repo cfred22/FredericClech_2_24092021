@@ -27,11 +27,15 @@ nav ul
 
 li
 {
-    margin: 0 120px 0 20px;             
+    margin: 20 20px 0 20 px;             
 }
 
-#activities-id
+.box_filters
 {
-    margin: auto;
+    display: flex;
+    align-items: baseline;
+
 }
+
+
 
