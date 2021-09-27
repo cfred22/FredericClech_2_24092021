@@ -2,17 +2,18 @@
 <html lang="fr">
     <head>
         <meta charset="utf8">
-        <title>Reservia - Trouvez votre hébergements pour des vacances de rêve</title>
-        <script src="https://kit.fontawesome.com/78c94e52fa.js" crossorigin="anonymous"></script>  
+        <title>Reservia - Trouvez votre hébergements pour des vacances de rêve</title>        
         <link rel="stylesheet" href="style.css">
+        <!-- RALLEWAY POLICE & KIT FONTAWESOME -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,400&display=swap" rel="stylesheet">
-                  
+        <script src="https://kit.fontawesome.com/78c94e52fa.js" crossorigin="anonymous"></script>   
     </head>
+
     <body>
         <!-- HEADER ET MENU NAVIGATION -->
-        <header>
+        <header class="page_header">
             <img src="../logo/reservia.svg" alt="logo-reservia">
             <nav class="menu">
                 <ul>
@@ -23,20 +24,40 @@
             </nav>
         </header>
 
-        <!-- RECHERCHE ET FILTRES -->
+        <!-- RECHERCHE ET FILTRES -->        
         <section id="research_filters">
+            <!-- recherche -->
             <div class="txt_find_accomodations">
-            <h1><strong>votre hébergements pour des vacances de rêve</strong></h1>
-            <p>En plein centre ville ou en pleine nature</p>
+                <h1><strong>votre hébergements pour des vacances de rêve</strong></h1>
+                <p>En plein centre ville ou en pleine nature</p>
             </div>
+            
             <div class="search">
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="text"name="town" placeholder="Marseille, France" >
-            </div>
-            <!-- remplacer bt rechercher par logo loupe -->          
+            </div>                      
             <div>
-                <button>Rechercher</button>
-            </div>            
+                <button>Rechercher</button><!-- remplacer bt rechercher par logo loupe -->
+            </div>
+            <!-- filtres -->           
+            <div class="box_filters">
+                <p>Filtres</p>            
+                <div class="eco">                    
+                    <button><i class="fas fa-money-bill-wave"></i><input  class="eco" type=button value="Économique" /></button>
+                </div>
+                <div class="family"> 
+                    <button><i class="fas fa-child"></i><input class="family" type=button value="Familial" /></button>
+                </div>
+                <div class="romantic">                    
+                    <button><i class="fas fa-heart"></i><input class="romantic" type=button value="Romantique" /></button>
+                </div>
+                <div class="pets">              
+                    <button><i class="fas fa-dog"></i><input class="pets" type=button value="Animaux autorisés" /></button>
+                </div>                 
+            </div>   
+            
+                 
+            </div>    
         </section>
 
 
