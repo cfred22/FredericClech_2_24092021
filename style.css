@@ -2,8 +2,7 @@ body
 {
     font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
     margin: 30px;
-    max-width: 1440px;
-            
+    max-width: 1440px;            
 }
 
 header
@@ -12,30 +11,36 @@ header
     justify-content: space-between;        
 }
 
-nav
+.menu ul
 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;       
-}
-
-nav ul
-{
-    display: flex;
-    list-style: none; 
+    list-style: none;
 }
 
 li
 {
-    margin: 20 20px 0 20 px;             
+    margin: 0 20px 0 20px;
 }
+
 
 .box_filters
 {
     display: flex;
-    align-items: baseline;
-
+    justify-content: baseline;  
+    margin-top: 20px;     
 }
+
+.eco
+{
+    margin: 0 20px 10px 20px;
+    border: 0ch;
+    height: 50px; 
+}
+.fas
+{
+    color: #0065fc;
+    font-size: 20px;
+} 
 
 
 
