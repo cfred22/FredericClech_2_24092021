@@ -1,11 +1,37 @@
 body
 {
     font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    max-width: 1440px;
+            
 }
 
 header
 {
     display: flex;
+    justify-content: space-between;        
+}
+
+nav
+{
+    display: flex;
     justify-content: space-between;
+    align-items: center;       
+}
+
+nav ul
+{
+    display: flex;
+    list-style: none; 
+}
+
+li
+{
+    margin: 0 120px 0 20px;             
+}
+
+#activities-id
+{
+    margin: auto;
 }
 
