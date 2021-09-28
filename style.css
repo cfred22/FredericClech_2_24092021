@@ -7,11 +7,21 @@ body
     max-width: 1440px;            
 }
 
-h1
+a
 {
-    font-size: 1.34em;
+    text-decoration: none;
+}
+
+p{
+    margin-right: 20px;
     font-weight: bolder;
     
+}
+
+h1
+{
+    font-size: 1.6em;
+    font-weight: bolder;
 }
 
 
@@ -43,11 +53,6 @@ nav ul
     flex-wrap: wrap;
 }
 
-li
-{
-    margin: 0 10px 0 50px;
-    text-underline-position: above; 
-}
 
 /*-- RECHERCHE ET MARKER POSITION --*/
 .search
@@ -93,7 +98,7 @@ li
     background-color: #0065fc;
     border-radius: 0px 15px 15px 0px;
     border: 0px;
-    padding: 0px 35px 0px 15px;
+    padding: 0px 25px 0px 25px;
     color: #eeeeee;
     text-align: center;
     font-size: 1em;
@@ -105,7 +110,9 @@ li
 
 /*-- FILTRES ECO/FAMILY/ROMANCE/PETS --*/
 
-.filters_box
+
+
+.filters_box, .filters
 {
     display: flex;
     align-items: baseline;
@@ -122,21 +129,17 @@ li
     padding: 20px;  
 }
 
-.economic_bloc, .family_bloc
+.search_area
 {
-    background-color: #ffffff;
-    align-items: initial;
-    border-color: #ffffff;
-    font-weight: bold; 
-    font-size: 1em;
-    color: black;
-    height: 48px; 
-    border: 1px solid #f2f2f2; 
-    max-width: 200px; 
-    min-width: none;
-    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
     border-radius: 0 30px 30px 0;
+    border: 2px solid #f2f2f2;
+    color: lavender;    
+    size: 150 47;
+    
 }
+
+
 
 
 
