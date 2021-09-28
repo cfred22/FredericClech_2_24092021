@@ -3,7 +3,7 @@
 body
 {
     font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
-    margin: 30px;
+    margin: 20px;
     max-width: 1440px;            
 }
 
@@ -11,26 +11,51 @@ h1
 {
     font-size: 1.34em;
     font-weight: bolder;
+    
 }
 
+
+/*-- HEADER & LIENS --*/
 header
 {
     display: flex;
-    justify-content: space-between;        
+    justify-content: space-between;
+    flex-wrap: wrap;        
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #0065fc;
 }
 
-.menu ul
+.fas .fa
+{
+    font-weight: 900;
+}
+
+nav ul
 {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 li
 {
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 50px;
+    text-underline-position: above; 
 }
 
 /*-- RECHERCHE ET MARKER POSITION --*/
+.search
+{
+    display: flex;
+   margin: 20px 0 50px 0;
+}  
+ 
 .fa-map-marker-alt
 {
     border: 0px solid #e3e3e3;
@@ -48,18 +73,19 @@ li
 .search_btn
 {
     background-color: #ffffff;
-    text-align: start;
     border-color: #ffffff;
-    border-image: none;
+    border-image: initial;
     font-weight: bold; 
-    font-size: 0.8em;
+    font-size: 1em;
     color: black;
     height: 48px; 
     border: 1px solid #f2f2f2; 
-    width: 200px; 
-    position: static;
-    margin: 0 0 0 49px;
-    padding: 0 0 0 1em;    
+    max-width: 200px; 
+    min-width: none;
+    margin-left: 50px;
+    padding-left: 20px;
+   
+    
 }
 
 .research
@@ -67,36 +93,44 @@ li
     background-color: #0065fc;
     border-radius: 0px 15px 15px 0px;
     border: 0px;
-    padding: 0px 35px 0px 20px;
+    padding: 0px 35px 0px 15px;
     color: #eeeeee;
     text-align: center;
     font-size: 1em;
     height: 52px;
     cursor: pointer;
-    position: fixed;
+    max-width: 150px;
+    
 }
 
 /*-- FILTRES ECO/FAMILY/ROMANCE/PETS --*/
-.box_filters
+
+.filters_box .flitersicons
 {
-    display: flex;
-    justify-content: baseline;  
-    margin-top: 20px;     
+    background-color: #deebff;
+    color: #0065fc;
+    margin-right: 15px; 
+    border-radius: 50%;
+    padding: 600px;  
 }
 
-.nt
+.fa-money-bill-wave 
 {
-    margin: 0 20px 10px 20px;
-    border: 0ch;
-    height: 50px; 
+    color: #0065fc;
+
+
 }
 
-.eco
-{
-    margin: 0 20px 10px 20px;
-    border: 0ch;
-    height: 50px; 
-}
+
+
+
+
+
+
+
+
+
+
 
 
 

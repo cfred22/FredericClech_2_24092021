@@ -16,11 +16,11 @@
         <!-- HEADER ET MENU NAVIGATION -->
         <header class="page_header">
             <img src="logo/Reservia.svg" alt="logo-reservia">
-            <nav class="menu">
+            <nav>
                 <ul>
-                    <li><a href="#">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
-                    <li><a href="#">s'inscrire</a></li>
+                    <li><a href="accomodations">Hébergements</a></li>
+                    <li><a href="activities">Activités</a></li>
+                    <li><a href="subcrib">S'inscrire</a></li>
                 </ul>
             </nav>
         </header>
@@ -41,23 +41,27 @@
             </div>
 
             <!-- filtres -->           
-            <div class="box_filters">
-                <p>Filtres</p>            
-                <div class="eco">                    
-                    <button><i class="fas fa-money-bill-wave"></i><value id="Économique" /></button>
-                    <input type="text" value="Économique" class="economic">
-                </div>
-                <div class="family"> 
-                    <button><i class="fas fa-child"></i></i><value id="Famille" /></button>
-                    <input type="text" value="Famille" class="family">
-                </div>
-                <div class="romantic">                    
-                    <button><i class="fas fa-heart"></i></i></i><valu id="Romantique" /></button>
-                    <input type="text" value="Romantique" class="romantic">
-                </div>
-                <div class="pets">              
-                    <button><i class="fas fa-dog"></i></i></i>/i><value id="Animaux autorisés" /></button>
-                    <input type="text" value="Animaux autorisés" class="pets">
+            <div class="filters">
+                <p>Filtres</p>
+                <div class="filters_box">
+                    <a href="#">
+                        <span class="eco">
+                            <span class="filtericons">
+                                <i class="fas fa-money-bill-wave"></i>
+                            </span>  
+                        <input type="text" value="Économique" class="economic">
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="family">
+                            <span class="filtericons">
+                                <i class="fas fa-child"></i>
+                            </span>  
+                        <input type="text" value="Famille" class="family">
+                        </span>
+                    </a>
+
+                
                 </div>                 
             </div>   
             
