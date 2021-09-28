@@ -2,6 +2,8 @@
 /*-- BASE GENERALE DU STYLE --*/
 body
 {
+    display: flex;
+    flex-direction: column;
     font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
     margin: 20px;
     max-width: 1440px;            
@@ -12,16 +14,23 @@ a
     text-decoration: none;
 }
 
-p{
+p
+{
     margin-right: 20px;
-    font-weight: bolder;
-    
+    font-size: 1.2em;
+    font-weight: bold;    
 }
 
-h1
+h1 
 {
-    font-size: 1.6em;
-    font-weight: bolder;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+h2 
+{
+    font-size: 1.1em;
+    font-weight: normal;
 }
 
 
@@ -30,7 +39,8 @@ header
 {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;        
+    flex-wrap: wrap;
+    margin-bottom: 20px;        
 }
 nav
 {
@@ -41,10 +51,11 @@ nav
     color: #0065fc;
 }
 
-.fas .fa
+header li
 {
-    font-weight: 900;
+    margin: 0 10px 0 50px;    
 }
+
 
 nav ul
 {
@@ -57,7 +68,7 @@ nav ul
 /*-- RECHERCHE ET MARKER POSITION --*/
 .search
 {
-    display: flex;
+   display: flex;
    margin: 20px 0 50px 0;
 }  
  
@@ -89,8 +100,6 @@ nav ul
     min-width: none;
     margin-left: 50px;
     padding-left: 20px;
-   
-    
 }
 
 .research
@@ -105,7 +114,6 @@ nav ul
     height: 52px;
     cursor: pointer;
     max-width: 150px;
-    
 }
 
 /*-- FILTRES ECO/FAMILY/ROMANCE/PETS --*/
@@ -120,24 +128,28 @@ nav ul
 }
 
 
-.fa-money-bill-wave, .fa-child 
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog 
 {
     background-color: #deebff;
     color: #0065fc;
-    margin-right: 15px; 
     border-radius: 45px;
     padding: 20px;  
+    margin-right: 20px;
 }
 
 .search_area
 {
     background-color: rgb(255, 255, 255);
-    border-radius: 0 30px 30px 0;
-    border: 2px solid #f2f2f2;
-    color: lavender;    
-    size: 150 47;
-    
+    border-radius: 40px 40px 40px 40px;
+    border: 0.2em solid #f2f2f2;
+    color: rgb(0, 0, 0);    
+    size: 175 45;
+    padding: 0 30px 0 0;
+    font-weight: bold;
+    font-size: 1.2em;   
 }
+
+
 
 
 
