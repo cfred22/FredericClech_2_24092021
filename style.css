@@ -184,12 +184,12 @@ nav ul
 {
     background-color: rgb(255, 255, 255);
     color: #0065fc;
-    padding: 9px;
-    font-size: small;
+    padding: 0.5%;
+    font-size: smaller;
     border-radius: 50%;
     margin-right: 15px;
     border: 2px solid #f2f2f2;
-    width: 0.7em;
+    width: 0.7%;
     height: 0.7em;
     text-align: center;
 }
@@ -201,8 +201,8 @@ nav ul
 #main_accomodations
 {
     background-color: #f2f2f2;
-    font-weight: 880px;
     height: 628px;
+    width: 880px;
     border-radius: 2em;
 
 }
