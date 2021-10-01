@@ -257,19 +257,15 @@ nav ul
     position: sticky;
 }
 
-
-
 .title_card
 {
     position: absolute;
 }
 
-
 .hotel p
 {
     margin: 0px 0 0 1px;
 }
-
 
 .hotel img
 {
@@ -290,8 +286,7 @@ nav ul
     align-items: center;
     padding-bottom: 8%;
     max-height: 625px;
-    margin-top: 45px;
-   
+    margin-top: 45px;   
 }
 
 
