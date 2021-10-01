@@ -214,6 +214,42 @@ nav ul
     background-color: #f2f2f2;
     border-radius: 20px;
     width: 60%;
+    max-height: 625px;
+}
+.central_accomodations p
+{
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.central_accomodations .hotel
+{
+    background-color: white;
+    border: 4px solid transparent;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px #e2e2e2;
+}
+
+.hotel_rang1
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+
+
+.hotel h2
+{
+    margin: 5px 0 0 10px;
+}
+
+.hotel img
+{
+    width: 100%;
+    height: 8vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
 
 .central_popular
@@ -225,6 +261,8 @@ nav ul
     flex-direction: column;
     align-items: center;
     padding-bottom: 8%;
+    max-height: 625px;
+   
 }
 
 
