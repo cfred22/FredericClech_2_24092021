@@ -13,8 +13,7 @@ body
     font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
     padding: 25px 50px 25px 50px;
-    max-width: 1340px;   
-             
+    max-width: 1340px;               
 }
 
 img .logo-reservia
@@ -29,6 +28,11 @@ a
     color: rgb(0, 0, 0);
 }
 
+
+p{
+    margin: 2px;    
+}
+
 p header
 {
     margin-right: 20px;
@@ -37,8 +41,9 @@ p header
 
 h1 
 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bold;
+    margin: 0px;
 }
 
 h3 
@@ -64,7 +69,7 @@ header
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 50px; 
+    margin-bottom: 35px; 
 }
 
 nav
@@ -124,7 +129,7 @@ nav ul
     padding-left: 30px;
     height: 48px; 
     border: 1px solid #f2f2f2; 
-    width: 234px;
+    width: 200px;
     min-width: 12%;
     max-width: 88%;
 }
@@ -159,33 +164,54 @@ nav ul
    
 }
 
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog 
+.fa-money-bill-wave
 {
+    width: 20px;
+    height: 20px;
+    background-color: #deebff;   
+    color: #0065fc;
+    border-radius: 50%;
+    padding: 15px;
+    height: 20px;  
+}
+
+.fa-child:hover, .fa-heart:hover, .fa-dog:hover, .fa-money-bill-wave:hover 
+{
+    color:#ffffff;
+    background:#0065fc;
+    border-radius: 50% 50% 1% 50%;
+
+
+  
+}
+
+
+.fa-child, .fa-heart, .fa-dog {
+   
     background-color: #deebff;
     text-align: center;
     color: #0065fc;
-    border-radius: 45px;
-    padding: 17px;  
-    width: 25px;
-    height: 25px;    
+    border-radius: 50%;
+    padding: 15px;  
+    width: 20px;
+    height: 20px;    
 }
 
 .search_area
 {
     color: rgb(0, 0, 0);    
     font-weight: bold;
-    font-size: 1.2em;  
-    font-feature-settings: "c2pc"; 
-    padding: 0 22px 0 0px;
+    font-size: 1.2em;
+    padding: 0 25px 0 0px;
     border: 2px solid #f2f2f2;
     border-radius: 45px 45px 45px 45px; 
-    margin: 12px;    
+    margin: 0 0 0 20px; 
 }
 
 .info
 {
     display: flex;
-    margin-top: 20px;
+    margin-top: 25px;
     align-items: baseline;
 }
 
@@ -197,11 +223,10 @@ nav ul
     font-size: smaller;
     border-radius: 50%;
     margin-right: 15px;
-    border: 2px solid #f2f2f2;
-    width: 0.7%;
-    height: 0.7em;
-    text-align: center;
-   
+    border: 1px solid #f2f2f2;
+    width: 0.9%;
+    height: 0.7%;
+    text-align: center;   
 }
 
 /*---------------------------* MENU CENTRAL*----------------------------------*/
@@ -231,7 +256,7 @@ nav ul
     background-color: #f2f2f2;
     border-radius: 20px;
     width: 65%;    
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 
@@ -264,16 +289,16 @@ nav ul
 {
     font-size: small;
     padding-left: 0.6em;
-    color: #0065fc;     
+    color: #f2f2f2;     
 }
-.fa-star.gold 
+.fa-star.blue 
 {
-	color: #ffdc0f;
-    letter-spacing: -8px;
+	color: #0065fc;
+    letter-spacing: -10px;
 }
 .title_card 
 {
-    font-size: 15px;
+    font-size: 16px;
     padding: 5px;
     font-weight: bold;
 }
@@ -309,8 +334,32 @@ nav ul
     align-items: center;
     padding-bottom: 8%;
     max-height: 625px;
-    margin-top: 45px;   
+    margin-top: 25px;   
 }
+
+/*-- HEBERGEMENTS POPULAIRES --*/
+
+
+.central_popular
+{
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.central_popular h1
+
+{
+    margin-top: 47px;
+    padding-left: 25px;
+    
+
+}
+
+
+
+
 
 
 
