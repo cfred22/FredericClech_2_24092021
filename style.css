@@ -3,7 +3,7 @@
 .bloc_body
 {
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
 
 body
@@ -13,7 +13,8 @@ body
     font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
     padding: 25px 50px 25px 50px;
-    max-width: 1440px;            
+    max-width: 1340px;   
+             
 }
 
 img .logo-reservia
@@ -42,7 +43,6 @@ h1
 
 h3 
 {
-    display: block;
     font-size: 1.2em;
 }
 
@@ -110,7 +110,7 @@ nav ul
     color: black;
     text-align-last: center;
     font-size: 18px; 
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .search_space
@@ -119,8 +119,9 @@ nav ul
     border-color: #ffffff;
     border-image: initial;
     font-weight: bold; 
-    font-size: 1em;
+    font-size: 19px;
     color: black;
+    padding-left: 30px;
     height: 48px; 
     border: 1px solid #f2f2f2; 
     width: 234px;
@@ -144,11 +145,18 @@ nav ul
 
 /*-- FILTRES ECO/FAMILY/ROMANCE/PETS + INFOS --*/
 
+.filters h3
+{
+    padding-right: 25px
+}
+
+
 .filters_box, .filters
 {
     display: flex;
     align-items: baseline;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
+   
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog 
@@ -157,7 +165,7 @@ nav ul
     text-align: center;
     color: #0065fc;
     border-radius: 45px;
-    padding: 20px;  
+    padding: 17px;  
     width: 25px;
     height: 25px;    
 }
@@ -168,17 +176,17 @@ nav ul
     font-weight: bold;
     font-size: 1.2em;  
     font-feature-settings: "c2pc"; 
-    padding: 0 35px 0 0px;
+    padding: 0 22px 0 0px;
     border: 2px solid #f2f2f2;
     border-radius: 45px 45px 45px 45px; 
-    margin: 15px;    
+    margin: 12px;    
 }
 
 .info
 {
     display: flex;
     margin-top: 20px;
-    align-items: baseline;    
+    align-items: baseline;
 }
 
 .fa-info
@@ -193,41 +201,45 @@ nav ul
     width: 0.7%;
     height: 0.7em;
     text-align: center;
+   
 }
 
 /*---------------------------* MENU CENTRAL*----------------------------------*/
 /*-- HEBERGEMENTS PAR DESTINATION --*/
 
-.central_accomodations h1
+.central_accomodations h1, h2
 {
     margin-top: 47px;
+    padding-left: 40px;
 }
+.central_accomodations h2
+{
+    margin-bottom: 50px;
+    padding-left: 40px;
+    font-size: larger;
+}
+
 
 .central_2_mains
 {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-between; 
 }
 
 .central_accomodations
 {
     background-color: #f2f2f2;
     border-radius: 20px;
-    width: 60%;
-    max-height: 625px;
+    width: 65%;    
+    margin-top: 30px;
 }
 
-.central_accomodations 
-{
-    padding-left: 40px;
-    margin-top: 45px;
-}
 
 .hotel_rang1, .hotel_rang2
 {
     display: flex;
     justify-content: space-around;
-    margin: 30px;
+    margin: 50px;
 }
 
 .hotel   /*cadre vignettes hotel et ombres*/
@@ -246,23 +258,30 @@ nav ul
 {
     width: 250px;
     max-width: 250px; 
-    margin-bottom: 20px;
 }
 
 .fa-star
 {
     font-size: small;
     padding-left: 0.6em;
-    color: #0065fc;
+    color: #0065fc;     
 }
-.title_card
+.fa-star.gold 
 {
-    font-size: large;
-    
+	color: #ffdc0f;
+    letter-spacing: -8px;
 }
-.title2
+.title_card 
+{
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+}
+.price 
 {
     font-size: small;
+    font-weight: normal;
+    padding: 5px;
 }
 
 
