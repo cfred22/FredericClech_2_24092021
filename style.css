@@ -420,22 +420,26 @@ nav ul
 /*--------------- ACTIVITÉS SUR DESTINATION------------------*/
 
 
-.acti_first
+.activities
 {
-    width: 25%; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.acti_first, .acti_second, .acti_three, .acti_four
+{
+    width: 22%; 
     margin: 0px auto; 
     background-color: white; 
     border-radius: 20px;
-    box-shadow: 3px 3px 3px rgb(225, 225, 225); 
-    
-    
+    box-shadow: 3px 3px 3px rgb(225, 225, 225);
+      
 }
 
 .acti_first a
 {
     color: #333; 
     text-decoration: none;
-
 }
 
 .acti_first:hover .card_pic img
@@ -448,12 +452,30 @@ nav ul
 {
     position: relative;
     overflow: hidden;
-    height: 450px;
+    height: 390px;
     width: 100%;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
-    
 }
+.card_pic2
+{
+    position: relative;
+    overflow: hidden;
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;    
+}
+.card_pic3
+{
+    position: relative;
+    overflow: hidden;
+    height: 110px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;    
+}
+
 
 .card_pic img
 {
@@ -472,8 +494,7 @@ nav ul
 {
     font-size: medium;  
     font-weight: bold;
-    padding: 20px;  
- 
+    padding: 20px;   
     text-align: start;
     
 }
