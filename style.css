@@ -19,8 +19,8 @@ body
     display: flex;
     flex-direction: column;
     font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 1340px; 
-    padding: 50px; 
+    max-width: 1440px; 
+    padding: 50px 100px 0 100px; 
     margin: auto;  
 }
 .logo-reservia
@@ -134,7 +134,7 @@ nav ul
     padding-left: 30px;
     height: 52px; 
     border: 1px solid #f2f2f2; 
-    width: 200px;
+    width: 220px;
     min-width: 12%;
     max-width: 88%;
 }
@@ -214,21 +214,20 @@ nav ul
 {
     display: flex;
     margin-top: 50px;
-    align-items: center;
 }
 
 .fa-info
 {
     background-color: rgb(255, 255, 255);
     color: #0065fc;
-    padding: 0.5%;
     font-size: smaller;
+    padding: 0.3em;
     border-radius: 50%;
     margin-right: 15px;
     border: 1px solid #f2f2f2;
     width: 23px;
     height: 23px;
-    text-align: centere;
+    text-align: center;
 }
 
 /*---------------------------* MENU CENTRAL*----------------------------------*/
@@ -302,6 +301,7 @@ nav ul
 {
     font-size: 16px;    
     font-weight: bold;
+    padding: 5px;
 }
 
 .price 
@@ -419,6 +419,12 @@ nav ul
 /*--------------- ACTIVITÉS SUR DESTINATION------------------*/
 
 
+.title_activities, h2
+{
+    padding-left: 5px;
+}
+
+
 .activities
 {
     display: flex;
@@ -452,12 +458,9 @@ nav ul
 {
     color: #333; 
     text-decoration: none;
+    cursor: pointer;
 }
 
-.acti_first:hover
-{ 
-    filter: grayscale(0);
-}
 
 .card_pic
 {
@@ -469,6 +472,7 @@ nav ul
     border-radius: 15px 15px 0 0;
     box-shadow: 3px 0 3px rgb(225, 225, 225);
 }
+
 .card_pic2
 {
     position: relative;
@@ -537,19 +541,25 @@ nav ul
 
 /*------------------------ FOOTER ----------------------------*/
 
+.header
+{
+    margin: auto;
+    width: 1440px;
+}
+
+
 .foot_3box
 {
     background-color: #F2F2F2;
-    height: 217px;    
+    height: 217px; 
     margin-top: 62px;
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 100px;
-       
+    align-content: center;
+    padding-top: 50pxe;
 }
-
-
 
 .about nav ul
 {
@@ -577,7 +587,6 @@ nav ul
 li .about
 {
     font-weight: bolder;
-       
 }
 li .accomodations
 {
@@ -587,7 +596,6 @@ li .assistance
 {
     font-weight: bolder;
 }
-
 
 
 
