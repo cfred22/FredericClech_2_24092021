@@ -339,7 +339,7 @@ nav ul
 
 .price 
 {
-    font-size: small;
+    font-size: medium;
     font-weight: normal;
     padding: 5px;
 }
@@ -426,6 +426,12 @@ nav ul
     border-radius: 15px 15px 15px 15px;
 }
 
+.price_popu 
+{
+    font-size: medium;
+    font-weight: normal;
+}
+
 .pop_txt_info
 {
     color: black;    
@@ -444,9 +450,9 @@ nav ul
 }
 
 
-.pop_txt_info, .stars
+.pop_txt_info .stars
 {
-   margin-top: 2px;
+   margin-top: 10px;
 }
 
 /*---------------------- ACTIVITÉS SUR DESTINATION --------------------------*/
@@ -551,14 +557,14 @@ nav ul
 .foot_3box
 {
     background-color: #F2F2F2;
-    height: 217px; 
+    height: 220px; 
     margin-top: 62px;
     display: flex;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 100px;
+    padding-left: 2%;
+    padding-right: 20%;
     align-content: center;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 
