@@ -1,5 +1,5 @@
 
-/*-- BASE GENERALE DU STYLE --*/
+/*--------------------- BASE GENERALE DU STYLE -------------------------*/
 
 *, *:before, *:after   /*-- box-sizing pour gérer les dimensions  --*/
 {
@@ -25,11 +25,7 @@ body
 }
 
 
-.logo-reservia
-{
-    width: 0.3em;
-    margin-top: 12px;
-    }
+
 
 a
 {
@@ -39,12 +35,6 @@ a
 
 p{
     margin: 2px;    
-}
-
-p header
-{
-    margin-right: 20px;
-    font-size: 1.6em;
 }
 
 h1 
@@ -59,42 +49,7 @@ h3
 }
 
 
-/*-- HEADER & LIENS --*/
-
-h1, .txt_find_accomodations
-{
-    margin-bottom: 0.1em;
-}
-
-ul li 
-{
-    font-size: 1em;
-}
-
-.menu    /*---------- over line animation ------------*/
-{
-    display: inline-block;    
-}
-.menu:hover
-{
-    color:#0065fc;
-}
-.menu:before         
-{
-    content: "";
-    display: block;
-    height: 0.25em;
-    width: 0%;
-    margin-bottom: 50px;
-    background-color: #0065fc;
-    transition: width 0.3s;   
-}
-.menu:hover:before
- {
-    width: 100%;
-}
-
-
+/*-------------------------- HEADER & LIENS -------------------------------*/
 
 header
 {
@@ -102,8 +57,58 @@ header
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 35px; 
-    margin-top: 25px;
 }
+
+.reservia_logo
+{
+    margin-top: 50px;
+}
+
+p header
+{
+    margin-right: 20px;
+    font-size: 1.6em;
+}
+
+h1, .txt_find_accomodations
+{
+    margin-bottom: 0.1em;
+}
+
+
+
+ul li 
+{
+    font-size: 1em;
+}
+
+    /*---------- over line animation menu header ------------*/
+
+.menu_ins    
+{
+    color:#0065fc;
+}
+
+.menu:hover, .menu_ins:hover
+{
+    color:#0065fc;
+}
+.menu:before, .menu_ins:before        
+{
+    content: "";
+    display: block;
+    height: 0.25em;
+    width: 0%;
+    margin-bottom: 45px;
+    background-color: #0065fc;
+    transition: width 0.3s;
+    transform: scaleX(1.4);
+      
+}
+.menu:hover:before, .menu_ins:hover:before
+ {
+    width: 100%;
+}                           
 
 nav
 {
@@ -129,7 +134,7 @@ nav ul
 }
 
 
-/*-- RECHERCHE ET MARKER POSITION --*/
+/*------------------ RECHERCHE ET MARKER POSITION -------------------------*/
 
 .search
 {
@@ -181,7 +186,7 @@ nav ul
     width: 150px;
 }
 
-/*-- FILTRES ECO/FAMILY/ROMANCE/PETS + INFOS --*/
+/*---------------- FILTRES ECO/FAMILY/ROMANCE/PETS + INFOS ----------------*/
 
 .filters h3
 {
@@ -258,8 +263,8 @@ nav ul
     text-align: center;
 }
 
-/*--------------------------- MENU CENTRAL ----------------------------------*/
-/*-- HEBERGEMENTS PAR DESTINATION --*/
+/*--------------------------- MENU CENTRAL -------------------------------*/
+/*--------------------- HEBERGEMENTS PAR DESTINATION ---------------------*/
 
 .central_2_mains
 {
@@ -364,7 +369,7 @@ nav ul
 
 
 
-/*---------------------------- HEBERGEMENTS POPULAIRES ----------------------------*/
+/*----------------------- HEBERGEMENTS POPULAIRES -------------------------*/
 
 
 
@@ -453,7 +458,7 @@ nav ul
    margin-top: 2px;
 }
 
-/*--------------- ACTIVITÉS SUR DESTINATION ------------------*/
+/*---------------------- ACTIVITÉS SUR DESTINATION --------------------------*/
 
 
 .title_activities, h2
@@ -576,7 +581,7 @@ nav ul
 }
 
 
-/*------------------------ FOOTER ----------------------------*/
+/*------------------------------- FOOTER ----------------------------------*/
 
 .header
 {
