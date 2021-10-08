@@ -14,6 +14,7 @@ body
 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #bloc_page
@@ -24,6 +25,7 @@ body
     width: 1340px; 
     padding: 0 50px 0 50px; 
     margin: auto;  
+    
 }
 
 a
@@ -259,14 +261,14 @@ nav ul
     height: 625px;     
 }
 
-.central_accomodations h1, h2
+.central_accomodations h1
 {
     margin-top: 47px;
     padding-left: 40px;
 }
+
 .central_accomodations h2
 {
-    margin-bottom: 50px;
     padding-left: 40px;
     font-size: larger;
 }
@@ -442,6 +444,7 @@ nav ul
 .title_activities, h2
 {
     padding-left: 5px;
+    padding-top: 20px;
 }
 
 .activities
@@ -531,17 +534,21 @@ nav ul
 
 /*------------------------------- FOOTER ----------------------------------*/
 
+footer
+{
+    width: 1440px;
+}
+
 .foot_3box
 {
     background-color: #F2F2F2;
     height: 220px; 
     margin-top: 62px;
-    display: flex;
-    justify-content: space-between;
     padding-left: 2%;
     padding-right: 20%;
-    align-content: center;
     padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .foot_3box li 
@@ -551,25 +558,19 @@ nav ul
 
 .about nav ul
 {
-    display: flex;
     list-style: none;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
 .accomodations nav ul
 {
-    display: flex;
     list-style: none;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
 .assistance nav ul
 {
-    display: flex;
     list-style: none;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
