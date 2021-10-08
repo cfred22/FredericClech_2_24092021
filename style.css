@@ -141,7 +141,6 @@ nav ul
 
 .search_space
 {
-    background-color: #ffffff;
     border-color: #ffffff;
     border-image: initial;
     font-weight: bold; 
@@ -164,6 +163,15 @@ nav ul
     height: 52px;
     cursor: pointer;
     width: 150px;
+}
+
+.research:hover
+{
+    background-color: #0065fc;
+    border-radius: 0 45px 45px 0;
+    color: #f2f2f2;
+    letter-spacing: 0.8px;
+    
 }
 
 /*---------------- FILTRES ECO/FAMILY/ROMANCE/PETS + INFOS ----------------*/
