@@ -22,7 +22,7 @@ body
     display: flex;
     flex-direction: column;
     font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
-    width: 1340px; 
+    width: 1440px; 
     padding: 0 50px 0 50px; 
     margin: auto;  
     
@@ -277,7 +277,15 @@ nav ul
 {
     display: flex;
     justify-content: space-around;
+}
+.hotel_bloc1
+{
     margin: 30px;
+}
+
+.hotel_bloc2
+{
+    margin: 30px 30px 1px 30px;
 }
 
 .hotel   /*cadre vignettes hotel et ombres*/
