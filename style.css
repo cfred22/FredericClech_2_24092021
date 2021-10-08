@@ -25,7 +25,6 @@ body
     width: 1440px; 
     padding: 0 50px 0 50px; 
     margin: auto;  
-    
 }
 
 a
@@ -545,6 +544,7 @@ nav ul
 footer
 {
     width: 1440px;
+    font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .foot_3box
