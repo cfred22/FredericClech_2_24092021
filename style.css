@@ -1,10 +1,12 @@
 
 /*--------------------- BASE GENERALE DU STYLE -------------------------*/
 
-*, *:before, *:after   /*-- box-sizing pour gérer les dimensions  --*/
+/*-- box-sizing pour gérer les dimensions  --*/
+*, *:before, *:after   
 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -37,14 +39,13 @@ p{
 h1 
 {
     font-size: 1.4em;
-    margin: 0px;
 }
 
 h3 
 {
     font-size: 1.2em;
+    padding-right: 25px
 }
-
 
 /*-------------------------- HEADER & LIENS -------------------------------*/
 
@@ -60,12 +61,6 @@ header
 {
     margin-top: 50px;
 }
-
-h1, .txt_find_accomodations
-{
-    margin-bottom: 0.1em;
-}
-
 
 
 ul li 
@@ -85,6 +80,7 @@ ul li
 {
     color:#0065fc;
 }
+
 .menu:before, .menu_ins:before        
 {
     content: "";
@@ -95,8 +91,8 @@ ul li
     background-color: #0065fc;
     transition: width 0.3s;
     transform: scaleX(1.4);
-      
 }
+
 .menu:hover:before, .menu_ins:hover:before
  {
     width: 100%;
@@ -116,14 +112,12 @@ header li
     margin: 0 10px 0 50px;    
 }
 
-
 nav ul
 {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
 }
-
 
 /*------------------ RECHERCHE ET MARKER POSITION -------------------------*/
 
@@ -135,11 +129,9 @@ nav ul
  
 .fa-map-marker-alt
 {
-    border: 0px solid #e3e3e3;
-    height: 52px;
     min-width: 52px;
     max-width: 52px;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 0 0 15px;
     background-color: #f2f2f2;
     color: black;
     text-align-last: center;
@@ -158,20 +150,17 @@ nav ul
     padding-left: 30px;
     height: 52px; 
     border: 1px solid #f2f2f2; 
-    width: 220px;
-    min-width: 12%;
-    max-width: 88%;
 }
 
 .research
 {
     background-color: #0065fc;
-    border-radius: 0px 15px 15px 0px;
-    border: 0px;
-    padding: 0px 25px 0px 25px;
+    border-radius: 0 15px 15px 0;
+    padding: 0 25px 0 25px;
     color: #eeeeee;
     text-align: center;
     font-size: 1em;
+    border: none;
     height: 52px;
     cursor: pointer;
     width: 150px;
@@ -179,18 +168,11 @@ nav ul
 
 /*---------------- FILTRES ECO/FAMILY/ROMANCE/PETS + INFOS ----------------*/
 
-.filters h3
-{
-    padding-right: 25px
-}
-
-
 .filters_box, .filters
 {
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
-   
 }
 
 .fa-money-bill-wave
@@ -212,7 +194,6 @@ nav ul
     border-radius: 50%;
     padding: 15px;  
     width: 52px;
-    height: 52px;    
 }
 
 .search_area
@@ -230,7 +211,6 @@ nav ul
 {
     background-color: #deebff;
     border-radius: 45px 45px 45px 45px;
-    padding: 0 -50px 0 0px;
     color: #0065fc;
 }
 
@@ -242,7 +222,6 @@ nav ul
 
 .fa-info
 {
-    background-color: rgb(255, 255, 255);
     color: #0065fc;
     font-size: smaller;
     padding: 0.3em;
@@ -250,7 +229,6 @@ nav ul
     margin-right: 15px;
     border: 1px solid #f2f2f2;
     width: 25px;
-    height: 25px;
     text-align: center;
 }
 
@@ -290,7 +268,6 @@ nav ul
     display: flex;
     justify-content: space-around;
     margin: 30px;
-   
 }
 
 .hotel   /*cadre vignettes hotel et ombres*/
@@ -309,6 +286,7 @@ nav ul
     width: 250px;
     max-width: 250px; 
 }
+
 .hotel_bloc3:hover, .hotel:hover, .acti_first:hover, .acti_second_a:hover, .acti_second_b:hover, .acti_three:hover, .acti_four_a:hover
 {
     -webkit-transform: scale(1.1);
@@ -316,7 +294,6 @@ nav ul
     -ms-transform:scale(1.1); /* IE 9 */
     -o-transform:scale(1.1); /* Opera */
     transform:scale(1.1);
-    
 }
 
 .fa-star
@@ -325,11 +302,13 @@ nav ul
     padding-left: 0.6em;
     color: #f2f2f2;     
 }
+
 .fa-star.blue 
 {
 	color: #0065fc;
     letter-spacing: -10px;
 }
+
 .title_card 
 {
     font-size: 16px;    
@@ -346,7 +325,7 @@ nav ul
 
 .hotel p
 {
-    margin: 0px 0 0 1px;
+    margin: 0 0 0 1px;
 }
 
 .hotel img
@@ -358,11 +337,7 @@ nav ul
     margin-top: 1px;    
 }
 
-
-
 /*----------------------- HEBERGEMENTS POPULAIRES -------------------------*/
-
-
 
 .central_popular
 {
@@ -371,7 +346,7 @@ nav ul
     padding-bottom: 8%;
     max-height: 625px;
     margin-top: 25px;
-    padding: 47px 37px 0 0;
+    padding: 30px 37px 0 0;
     max-width: 420px;
     width: 420px;
     margin-left: 40px;
@@ -382,7 +357,7 @@ nav ul
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    margin-left: 25px;
+    margin-left: 35px;
     margin-bottom: 20px;
 }
 
@@ -411,7 +386,6 @@ nav ul
 
 .hotel_pop_box
 {
-
     display: flex;
     background-color: white;
     border-radius: 25px;
@@ -449,7 +423,6 @@ nav ul
     margin-top: 15px;
 }
 
-
 .pop_txt_info .stars
 {
    margin-top: 10px;
@@ -463,7 +436,6 @@ nav ul
     padding-left: 5px;
 }
 
-
 .activities
 {
     display: flex;
@@ -476,15 +448,14 @@ nav ul
     background-color: white; 
     border-radius: 20px;
     margin: 10px;
-         
 }
+
 .acti_second
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 
 .acti_four
 {
@@ -500,7 +471,6 @@ nav ul
     cursor: pointer;
 }
 
-
 .card_pic, .card_pic2, .card_pic3, .card_pic4, .card_pic5, .card_pic6
 {
     position: relative;
@@ -510,6 +480,7 @@ nav ul
     border-radius: 15px 15px 0 0;
     box-shadow: 3px 0 3px rgb(225, 225, 225);
 }
+
 .card_pic
 {
     min-height: 390px;
@@ -550,9 +521,7 @@ nav ul
     box-shadow: 0 3px 3px rgb(225, 225, 225);    
 }
 
-
 /*------------------------------- FOOTER ----------------------------------*/
-
 
 .foot_3box
 {
@@ -579,6 +548,7 @@ nav ul
     flex-wrap: wrap;
     flex-direction: column;
 }
+
 .accomodations nav ul
 {
     display: flex;
@@ -586,6 +556,7 @@ nav ul
     flex-wrap: wrap;
     flex-direction: column;
 }
+
 .assistance nav ul
 {
     display: flex;
@@ -600,12 +571,10 @@ li .footer_links:hover
     text-decoration: #0065fc;
 }
 
-
 .footer_about, .footer_acco, .footer_ass  
 {
     font-weight: bold;
     font-size: larger;
-    
 }
 
 
