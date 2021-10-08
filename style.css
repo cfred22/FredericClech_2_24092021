@@ -63,9 +63,10 @@ header
     margin-bottom: 35px; 
 }
 
-.reservia_logo
+.reservia_logo img
 {
     margin-top: 50px;
+    width: 115px;
 }
 
 
@@ -611,6 +612,55 @@ li .footer_links:hover
     font-weight: bold;
     font-size: larger;
 }
+
+/*---------------------- ACTIVITÉS SUR DESTINATION --------------------------*/
+
+@media screen and (max-width: 1280px)
+{
+    #bloc_page 
+    {
+        width: auto;
+    }
+     header
+     {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     nav
+     {
+        flex-direction: column;
+        font-size: 21px;       
+     }
+
+     .reservia_logo img
+    {
+       margin-top: 10px;
+       width: 120px;
+       margin-bottom: 60px;
+    }
+
+    .menu:before, .menu_ins:before        
+    {
+       content: "";
+       display: block;
+       height: 0.2em;
+       width: 0%;
+       margin-bottom: -40px;
+       background-color: #0065fc;
+       transition: width 0.3s;
+       transform: scaleX(1.2);
+    }
+
+
+     
+
+
+        
+
+
+}
+
 
 
 
