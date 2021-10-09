@@ -625,7 +625,7 @@ li .footer_links:hover
 /*---------------------- RESPONSIVE DESIGN IPHONE --------------------------*/
 
 
-@media all and (max-device-width: 480px)
+@media all and (max-device-width: 800px)
 {
     #bloc_page
     {
