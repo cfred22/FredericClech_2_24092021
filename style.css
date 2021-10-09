@@ -22,7 +22,8 @@ body
     display: flex;
     flex-direction: column;
     font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
-    width: 1440px; 
+    max-width: 1440px; 
+    width: 100%;
     padding: 0 50px 0 50px; 
     margin: auto;  
 }
@@ -63,12 +64,17 @@ header
     margin-bottom: 35px; 
 }
 
+.menu_acco_acti
+{
+    display: flex;
+    align-items: baseline;
+}
+
 .reservia_logo img
 {
     margin-top: 50px;
     width: 115px;
 }
-
 
 ul li 
 {
@@ -81,6 +87,7 @@ ul li
 {
     color:#0065fc;
     font-weight: 700;
+    margin-left: 65px;
 }
 
 .menu:hover, .menu_ins:hover
@@ -108,7 +115,7 @@ ul li
 nav
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     margin: 0 0 5px 0;
@@ -613,78 +620,73 @@ li .footer_links:hover
     font-size: larger;
 }
 
-/*---------------------- ACTIVITÉS SUR DESTINATION --------------------------*/
 
-@media screen and (max-width: 1280px)
+
+/*---------------------- RESPONSIVE DESIGN IPHONE --------------------------*/
+
+
+@media all and (max-device-width: 480px)
 {
-    #bloc_page 
+    #bloc_page
     {
-        width: auto;
-    }
-     header
-     {
-         flex-direction: column;
-         align-items: center;
-         margin: 1px;
-     }
-
-     nav
-     {
+        display: flex;
         flex-direction: column;
-        font-size: 1.4em;       
-     }
-
-     .reservia_logo img
-    {
-       margin-top: 10px;
-       width: 120px;
-       margin-bottom: 60px;
+        font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
+        max-width: 1440px; 
+        width: 100%;
+        padding: 10px; 
+        margin: auto;  
     }
 
-    .menu:before, .menu_ins:before        
+    header
     {
-       content: "";
-       display: block;
-       height: 0.2em;
-       width: 0%;
-       margin-bottom: -40px;
-       background-color: #0065fc;
-       transition: width 0.3s;
-       transform: scaleX(1.2);
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+        flex-direction: column;
+    }
+    
+    
+    .menu_acco_acti
+    {
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+        display: flex;
+        font-size: 3.5em;
     }
 
-    h1
+    nav ul
     {
-        font-size: 1.6em;
-    }
-
-    .search
-    {
-        justify-content: center;
-    }
-
-    .search_space
-    {
-        border-color: #ffffff;
-        border-image: initial;
-        font-weight: bold; 
-        font-size: 19px;
-        color: black;
-        padding-right: 150px;
-        height: 52px; 
-        border: 1px solid #f2f2f2; 
-    }   
-
-
-
-     
-
-
         
+        list-style: none;
+        flex-wrap: nowrap;
+    }
+
+    .menu_ins    
+    {
+        color:#0065fc;
+        font-weight: 700;
+    }
+
+    .research
+    {
+        width: 100%;
+    }
+
+    .reservia_logo img
+    {
+        margin-top: 10px;
+        width: 300px;
+        position: absolute;
+        
+    }
 
 
+    
 }
-
 
 
 
