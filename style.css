@@ -25,7 +25,7 @@ body
     max-width: 1440px; 
     width: 100%;
     padding: 0 50px 0 50px; 
-    margin: auto;  
+    margin: initial; 
 }
 
 a
@@ -726,12 +726,11 @@ li .footer_links:hover
     .research
     {
         background-color: #0065fc;
-        border-radius: 50px 50px 50px 50px;
+        border-radius: 45px 45px 45px 45px;
         padding: 0 25px 0 25px;
         color: #eeeeee;
         text-align: center;
         font-size: 1em;
-        border: none;
         height: 135px;
         cursor: pointer;
         max-width: 140px;
@@ -747,6 +746,8 @@ li .footer_links:hover
        
         font-size: 3em;
     }
+
+    
  
     .filters_box, .filters
     {
@@ -757,12 +758,19 @@ li .footer_links:hover
      
      .fa-money-bill-wave
     {
-        background-color: #deebff;   
+        background-color: #deebff; 
+        text-align: center;  
         color: #0065fc;
         border-radius: 50%;
-        padding: 15px;
-        height: 52px;
-        width: 52px;    
+        height: 125px;
+        padding-top: 35px;
+        width: 125px;
+        font-size: 2em;   
+    }
+    .eco, .family, .romantic, .pets 
+    {
+        margin-right: 30px;
+        margin-bottom: 30px;
     }
      
      .fa-child, .fa-heart, .fa-dog 
@@ -771,20 +779,27 @@ li .footer_links:hover
         background-color: #deebff;
         text-align: center;
         color: #0065fc;
+        padding-top: 35px;
         border-radius: 50%;
-        padding: 15px;  
-        width: 52px;
+        height: 125px;
+        width: 125px;
+        font-size: 2em; 
     }
-     
+
+    .search_area i
+    {
+        font-size: 50px;
+    }
      .search_area
     {
         color: rgb(0, 0, 0);    
         font-weight: bold;
-        font-size: 1.2em;
-        border: 2px solid #f2f2f2;
-        border-radius: 45px 45px 45px 45px; 
+        font-size: 2.5em;
+        border: 4px solid #f2f2f2;
+        border-radius: 65px 65px 65px 65px; 
         margin: 0 0 0 20px; 
-        padding-right: 20px;
+        padding-right: 40px;
+        max-width: max-content;
     }
     .search_area:hover
     {
@@ -816,7 +831,7 @@ li .footer_links:hover
 
 
 
-    
+
 
  }
 
