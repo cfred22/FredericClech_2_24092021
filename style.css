@@ -34,7 +34,8 @@ a
     color: rgb(0, 0, 0);
 }
 
-p{
+p
+{
     margin: 2px;    
 }
 
@@ -687,8 +688,142 @@ li .footer_links:hover
         font-size: 3.5em;
     }
 
+    .search
+    {
+       display: flex;
+       justify-content: space-between;
+       margin: 20px 0 25px 0;
+       height: 135px;
+       margin-top: 50px;
+    }  
+
+    .fa-map-marker-alt
+    {
+        min-width: 140px;
+        width: 65px;
+        border-radius: 50px 0 0 50px;
+        background-color: #f2f2f2;
+        color: black;
+        text-align-last: center;
+        font-size: 50px; 
+        padding-top: 40px;
+    }
+    
+    .search_space
+    {
+        border-color: #ffffff;
+        border-image: initial;
+        font-weight: bold; 
+        font-size: 45px;
+        color: black;
+        padding-left: 80px;
+        height: 135px; 
+        width: 90%;
+        border: 3px solid #f2f2f2;
+        border-right: none;
+    }
+
+    .research
+    {
+        background-color: #0065fc;
+        border-radius: 50px 50px 50px 50px;
+        padding: 0 25px 0 25px;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 1em;
+        border: none;
+        height: 135px;
+        cursor: pointer;
+        max-width: 140px;
+    }
+
+     /*---------------- FILTRES ECO/FAMILY/ROMANCE/PETS + INFOS ----------------*/
+
+
+
+
+     .filters h3
+    {
+       
+        font-size: 3em;
+    }
+ 
+    .filters_box, .filters
+    {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+     }
+     
+     .fa-money-bill-wave
+    {
+        background-color: #deebff;   
+        color: #0065fc;
+        border-radius: 50%;
+        padding: 15px;
+        height: 52px;
+        width: 52px;    
+    }
+     
+     .fa-child, .fa-heart, .fa-dog 
+    {
+        
+        background-color: #deebff;
+        text-align: center;
+        color: #0065fc;
+        border-radius: 50%;
+        padding: 15px;  
+        width: 52px;
+    }
+     
+     .search_area
+    {
+        color: rgb(0, 0, 0);    
+        font-weight: bold;
+        font-size: 1.2em;
+        border: 2px solid #f2f2f2;
+        border-radius: 45px 45px 45px 45px; 
+        margin: 0 0 0 20px; 
+        padding-right: 20px;
+    }
+    .search_area:hover
+    {
+        background-color: #deebff;
+        border-radius: 45px 45px 45px 45px;
+        color: #0065fc;
+    }
+
+    .info
+    {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .fa-info
+    {
+        color: #0065fc;
+        font-size: smaller;
+        padding: 0.3em;
+        border-radius: 50%;
+        margin-right: 15px;
+        border: 1px solid #f2f2f2;
+        width: 25px;
+        text-align: center;
+    }
+
+
+
+
+
 
     
+
+ }
+
+
+
+
+
 
     
 
