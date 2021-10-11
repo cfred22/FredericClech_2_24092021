@@ -170,6 +170,11 @@ nav ul
     display: none;
 }
 
+.magnifying_glass
+{
+    visibility: hidden;
+}
+
 .research
 {
     background-color: #0065fc;
@@ -186,11 +191,9 @@ nav ul
 
 .research:hover
 {
-    background-color: #0065fc;
-    border-radius: 0 51px 51px 0;
+    background-color: #2076f7;
+    border-radius: 0 15px 15px 0;
     color: #f2f2f2;
-    letter-spacing: 0.8px;
-    
 }
 
 /*---------------- FILTRES ECO/FAMILY/ROMANCE/PETS + INFOS ----------------*/
@@ -298,7 +301,7 @@ nav ul
 .central_accomodations h3:hover
 {
     cursor: pointer;
-    font-size: larger;
+    font-weight: 600;
 }
 
 
@@ -639,7 +642,6 @@ li .footer_links:hover
     
     header
     {
-        justify-content: space-between;
         flex-wrap: wrap;
         margin-bottom: 35px;
         flex-direction: none;
@@ -688,11 +690,6 @@ li .footer_links:hover
        flex-wrap: nowrap;
     }
 
-    header li
-    {
-        padding-right: 100px;
-    }
-
     .menu:before, .menu_ins:before        
     {
        content: "";
@@ -703,7 +700,7 @@ li .footer_links:hover
        margin-bottom: -90px;
        background-color: #0065fc;
        transition: width 0.1s;
-       transform: scaleX(1.2);
+       transform: scaleX(1.1);
     }
 
     h1
@@ -718,6 +715,7 @@ li .footer_links:hover
        margin: 20px 0 25px 0;
        height: 135px;
        margin-top: 50px;
+       justify-content: flex-start;
     }  
 
     .fa-map-marker-alt
@@ -739,9 +737,8 @@ li .footer_links:hover
         font-weight: bold; 
         font-size: 45px;
         color: black;
-        padding-left: 80px;
         height: 135px; 
-        width: 90%;
+        width: 82%;
         border: 4px solid #f2f2f2;
         border-right: none;
     }
@@ -756,7 +753,7 @@ li .footer_links:hover
         background-color: #0065fc;
         border-radius: 45px 45px 45px 45px;
         height: 135px;
-        width: 130px;
+        width: 125px;
         text-align: center;
         padding-top: 40px;
         position: absolute;
@@ -769,6 +766,11 @@ li .footer_links:hover
         font-size: 3em;
         color: rgb(255, 255, 255);
         cursor: pointer;
+    }
+
+    .magnifying_glass
+    {
+        visibility: visible;
     }
 
 
@@ -787,7 +789,6 @@ li .footer_links:hover
 
     header li
     {
-        margin: 0;
         padding-right: 130px;
     }
 
@@ -853,7 +854,7 @@ li .footer_links:hover
     .search_area:hover
     {
         background-color: #deebff;
-        border-radius: 45px 45px 45px 45px;
+        border-radius: 65px 65px 65px 65px;
         color: #0065fc;
     }
 
