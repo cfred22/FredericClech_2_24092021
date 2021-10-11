@@ -163,6 +163,13 @@ nav ul
     align-items: baseline;
 }
 
+.fa-search
+{
+    display: none;
+    
+}
+
+
 .research
 {
     background-color: #0065fc;
@@ -637,15 +644,12 @@ li .footer_links:hover
         margin-bottom: 35px;
         flex-direction: none;
     }
-    
-    .menu_acco_acti
+
+    .reservia_logo img
     {
-        justify-content: space-between;
-        flex-direction: column-reverse;
-        align-items: flex-end;
-        flex-wrap: nowrap;
-        display: flex;
-        font-size: 3em;
+        margin-top: 10px;
+        width: 300px;
+        position: absolute;
     }
 
     .menu_ins    
@@ -655,17 +659,15 @@ li .footer_links:hover
         padding-top: 30px;
         padding-bottom: 20px;
     }
-
-    .research
+    
+    .menu_acco_acti
     {
-        width: 100%;
-    }
-
-    .reservia_logo img
-    {
-        margin-top: 10px;
-        width: 300px;
-        position: absolute;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+        display: flex;
+        font-size: 3em;
     }
 
     nav ul
@@ -734,21 +736,34 @@ li .footer_links:hover
 
     .research
     {
+        display: none;
+    }
+
+    #magnifying_glass
+    {
         background-color: #0065fc;
         border-radius: 45px 45px 45px 45px;
-        padding: 0 25px 0 25px;
-        color: #eeeeee;
-        text-align: center;
-        font-size: 1em;
         height: 135px;
+        width: 170px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .fa-search
+    {
+        display: initial;
+        font-size: 3em;
+        color: rgb(255, 255, 255);
         cursor: pointer;
-        max-width: 140px;
+    }
+
+
+    .txt_find_accomodations p
+    {
+        font-size: 2em;
     }
 
      /*---------------- FILTRES ECO/FAMILY/ROMANCE/PETS + INFOS ----------------*/
-
-
-
 
      .filters h3
     {
@@ -756,7 +771,7 @@ li .footer_links:hover
         font-size: 3em;
     }
 
-    
+
  
     .filters_box, .filters
     {
@@ -824,7 +839,7 @@ li .footer_links:hover
         display: flex;
         margin-top: 50px;
         font-size: 2.4em;
-        margin-bottom: 30epx;
+        margin-bottom: 30px;
     }
 
 
@@ -836,7 +851,8 @@ li .footer_links:hover
         border-radius: 50%;
         margin-right: 50px;
         border: 1px solid #f2f2f2;
-        width: 25px;
+        width: 55px;
+        height: 50px;
         text-align: center;
     }
 
