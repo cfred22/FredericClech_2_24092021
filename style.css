@@ -645,7 +645,8 @@ li .footer_links:hover
         padding: 30px;
     }
 
-    #bloc_page {
+    #bloc_page
+    {
         display: flex;
         flex-direction: column;
         font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
@@ -770,7 +771,7 @@ li .footer_links:hover
 
     .txt_find_accomodations p
     {
-        font-size: 2em;
+        font-size: 35px;
     }
 
      /*---------------- FILTRES ECO/FAMILY/ROMANCE/PETS + INFOS ----------------*/
@@ -779,6 +780,12 @@ li .footer_links:hover
     {
        
         font-size: 3em;
+    }
+
+    header li
+    {
+        margin: 0;
+        padding-right: 130px;
     }
 
 
