@@ -15,6 +15,7 @@ body
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 0;
 }
 
 #bloc_page
@@ -131,6 +132,7 @@ nav ul
 {
    display: flex;
    margin: 20px 0 25px 0;
+   
 }  
  
 .fa-map-marker-alt
@@ -167,7 +169,6 @@ nav ul
 {
     display: none;
 }
-
 
 .research
 {
@@ -435,7 +436,7 @@ nav ul
     display: flex;
     background-color: white;
     border-radius: 25px;
-    max-height: 145px; 
+    max-height: 135px; 
     margin-bottom: 35px;
 }
 
@@ -750,14 +751,16 @@ li .footer_links:hover
         display: none;
     }
 
-    #magnifying_glass
+    .fa-search 
     {
         background-color: #0065fc;
         border-radius: 45px 45px 45px 45px;
         height: 135px;
-        width: 170px;
+        width: 130px;
         text-align: center;
         padding-top: 40px;
+        position: absolute;
+        right: 30px;
     }
 
     .fa-search
