@@ -25,7 +25,7 @@ body
     max-width: 1440px; 
     width: 100%;
     padding: 0 50px 0 50px; 
-    margin: auto;e
+    margin: auto;
 }
 
 a
@@ -166,7 +166,6 @@ nav ul
 .fa-search
 {
     display: none;
-    
 }
 
 
@@ -223,7 +222,7 @@ nav ul
     padding: 15px;  
     height: 53px;
     width: 53px;  
-    margin-right: 10;
+    margin-right: 10px;
 }
 
 .search_area
@@ -307,6 +306,7 @@ nav ul
     display: flex;
     justify-content: space-around;
 }
+
 .hotel_bloc1
 {
     margin: 30px;
@@ -415,7 +415,6 @@ nav ul
 
 .card_pop_image
 {
-    width: 100%;
     height: 145px;
     max-width: 128px;
     min-width: 128px;
@@ -438,15 +437,9 @@ nav ul
     border-radius: 25px;
     max-height: 145px; 
     margin-bottom: 35px;
-     
 }
 
-.hotel_pop_box, .card_pop_image
-{
-    height: 135px;
-    object-fit: cover;
-    border-radius: 15px 15px 15px 15px;
-}
+
 
 .price_popu 
 {
@@ -635,6 +628,12 @@ li .footer_links:hover
 
 @media all and (max-device-width: 800px)
 {
+    
+    
+    #research_filters
+    {
+        padding: 30px;
+    }
 
     
     header
@@ -643,6 +642,17 @@ li .footer_links:hover
         flex-wrap: wrap;
         margin-bottom: 35px;
         flex-direction: none;
+        padding: 30px;
+    }
+
+    #bloc_page {
+        display: flex;
+        flex-direction: column;
+        font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
+        max-width: 1440px;
+        width: 100%;
+        padding: 0;
+        margin: auto;
     }
 
     .reservia_logo img
@@ -792,6 +802,7 @@ li .footer_links:hover
         margin-right: 10px;
         font-size: 2em;   
     }
+
     .eco, .family, .romantic, .pets 
     {
         margin-right: 30px;
@@ -816,6 +827,7 @@ li .footer_links:hover
     {
         font-size: 50px;
     }
+
      .search_area
     {
         color: rgb(0, 0, 0);    
@@ -827,6 +839,7 @@ li .footer_links:hover
         padding-right: 40px;
         max-width: max-content;
     }
+
     .search_area:hover
     {
         background-color: #deebff;
@@ -842,7 +855,6 @@ li .footer_links:hover
         margin-bottom: 30px;
     }
 
-
     .fa-info
     {
         color: #0065fc;
@@ -855,6 +867,106 @@ li .footer_links:hover
         height: 50px;
         text-align: center;
     }
+
+    /*----------- MENU CENTRAL ***** RESPONSIVE PHONE ****---------*/
+    
+    /*-----------DESTINATION---------*/
+
+    .central_2_mains
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+    .central_popular 
+    {
+        background-color: #F2F2F2;
+        border-radius: 0;
+        padding-bottom: 8%;
+        max-height: 100%;
+        margin-top: 0;
+        padding: 30px 37px 0 0;
+        max-width: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .card_pop_image
+     {
+        min-width: 300px;
+        max-width: 300px;
+        object-fit: cover;
+        border-radius: 30px 0 0 30px;
+        padding: 15px;
+        width: 300px;
+        height: 300px;
+    }   
+
+
+    .title_card_popu
+    {
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+    .hotel_pop_box 
+    {
+        display: flex;
+        background-color: white;
+        border-radius: 30px;
+        max-height: 300px; 
+        margin-bottom: 35px;
+    }
+
+    .title_card_popu
+    {
+        font-size: 2.4em;
+        font-weight: bold;
+    }
+
+    h2
+    {
+        font-size: 3.2em;
+    }
+
+    .title_card_popu
+    {
+        margin-left: 20px;
+    }
+
+    .fa-chart-line 
+    {
+        font-size: 3.2em;
+    }
+
+    .price_popu
+    {
+        font-size: 2.4em;
+        font-weight: normal;
+    }
+
+    .pop_txt_info .stars
+    {
+        margin-top: 10px;
+        font-size: 2em;
+        letter-spacing: -0.4em;
+    }
+               
+
+   
+
+
+
+
+
+
+
+    
+    
 
 
 
