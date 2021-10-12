@@ -443,8 +443,6 @@ nav ul
     margin-bottom: 35px;
 }
 
-
-
 .price_popu 
 {
     font-size: medium;
@@ -629,34 +627,24 @@ li .footer_links:hover
 
 /*---------------------- RESPONSIVE DESIGN IPHONE --------------------------*/
 
-
 @media all and (max-device-width: 800px)
+
 {
-    
-    
     #research_filters
     {
         padding: 30px;
     }
-
     
     header
     {
         flex-wrap: wrap;
-        margin-bottom: 35px;
         flex-direction: none;
         padding: 30px;
     }
 
     #bloc_page
     {
-        display: flex;
-        flex-direction: column;
-        font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
-        max-width: 1440px;
-        width: 100%;
         padding: 0;
-        margin: auto;
     }
 
     .reservia_logo img
@@ -668,10 +656,10 @@ li .footer_links:hover
 
     .menu_ins    
     {
-        color:#0065fc;
         font-weight: 500;
         padding-top: 30px;
         padding-bottom: 20px;
+        padding-right: 25px;
     }
     
     .menu_acco_acti
@@ -680,7 +668,6 @@ li .footer_links:hover
         flex-direction: column-reverse;
         align-items: flex-end;
         flex-wrap: nowrap;
-        display: flex;
         font-size: 3em;
     }
 
@@ -692,15 +679,11 @@ li .footer_links:hover
 
     .menu:before, .menu_ins:before        
     {
-       content: "";
-       display: block;
        height: 0.15em;
-       width: 0%;
        margin-top: 120px;
        margin-bottom: -90px;
-       background-color: #0065fc;
        transition: width 0.1s;
-       transform: scaleX(1.1);
+       transform: scaleX(1.3);
     }
 
     h1
@@ -710,9 +693,7 @@ li .footer_links:hover
 
     .search
     {
-       display: flex;
        justify-content: space-between;
-       margin: 20px 0 25px 0;
        height: 135px;
        margin-top: 50px;
        justify-content: flex-start;
@@ -723,20 +704,13 @@ li .footer_links:hover
         min-width: 140px;
         width: 65px;
         border-radius: 50px 0 0 50px;
-        background-color: #f2f2f2;
-        color: black;
-        text-align: center;
         font-size: 50px; 
         padding-top: 40px;
     }
     
     .search_space
     {
-        border-color: #ffffff;
-        border-image: initial;
-        font-weight: bold; 
         font-size: 45px;
-        color: black;
         height: 135px; 
         width: 82%;
         border: 4px solid #f2f2f2;
@@ -783,7 +757,6 @@ li .footer_links:hover
 
      .filters h3
     {
-       
         font-size: 3em;
     }
 
@@ -791,19 +764,9 @@ li .footer_links:hover
     {
         padding-right: 130px;
     }
-
-
- 
-    .filters_box, .filters
-    {
-        display: flex;
-        align-items: baseline;
-        flex-wrap: wrap;
-    }
       
     .fa-money-bill-wave
     {
-        background-color: #deebff; 
         text-align: center;  
         color: #0065fc;
         border-radius: 50%;
@@ -823,11 +786,7 @@ li .footer_links:hover
      .fa-child, .fa-heart, .fa-dog 
     {
         
-        background-color: #deebff;
-        text-align: center;
-        color: #0065fc;
         padding-top: 35px;
-        border-radius: 50%;
         height: 125px;
         width: 125px;
         margin-right: 10px;
@@ -841,8 +800,6 @@ li .footer_links:hover
 
      .search_area
     {
-        color: rgb(0, 0, 0);    
-        font-weight: bold;
         font-size: 2.5em;
         border: 4px solid #f2f2f2;
         border-radius: 65px 65px 65px 65px; 
@@ -851,102 +808,68 @@ li .footer_links:hover
         max-width: max-content;
     }
 
-    .search_area:hover
-    {
-        background-color: #deebff;
-        border-radius: 65px 65px 65px 65px;
-        color: #0065fc;
-    }
-
     .info
     {
-        display: flex;
-        margin-top: 50px;
         font-size: 2.4em;
         margin-bottom: 30px;
     }
 
     .fa-info
     {
-        color: #0065fc;
-        font-size: smaller;
-        padding: 0.3em;
-        border-radius: 50%;
         margin-right: 50px;
-        border: 1px solid #f2f2f2;
         width: 55px;
         height: 50px;
-        text-align: center;
     }
 
     /*----------- MENU CENTRAL ***** RESPONSIVE PHONE ****---------*/
     
-    /*-----------DESTINATION---------*/
+    /*-----------POPULAR---------*/
 
     .central_2_mains
     {
-        display: flex;
         flex-direction: column-reverse;
     }
 
-
-
     .central_popular 
     {
-        background-color: #F2F2F2;
         border-radius: 0;
-        padding-bottom: 8%;
         max-height: 100%;
         margin-top: 0;
-        padding: 30px 37px 0 0;
         max-width: 100%;
         width: 100%;
         margin-left: 0;
     }
 
-
-
     .card_pop_image
      {
         min-width: 300px;
         max-width: 300px;
-        object-fit: cover;
         border-radius: 30px 0 0 30px;
         padding: 15px;
         width: 300px;
         height: 300px;
     }   
 
-
     .title_card_popu
     {
         font-size: 1.8em;
-        font-weight: bold;
     }
 
     .hotel_pop_box 
     {
-        display: flex;
-        background-color: white;
         border-radius: 30px;
         max-height: 300px; 
-        margin-bottom: 35px;
     }
 
     .title_card_popu
     {
         font-size: 2.4em;
-        font-weight: bold;
+        margin-left: 20px;
     }
 
     h2
     {
         font-size: 3.2em;
-    }
-
-    .title_card_popu
-    {
-        margin-left: 20px;
     }
 
     .fa-chart-line 
@@ -957,16 +880,68 @@ li .footer_links:hover
     .price_popu
     {
         font-size: 2.4em;
-        font-weight: normal;
     }
 
     .pop_txt_info .stars
     {
-        margin-top: 10px;
         font-size: 2em;
         letter-spacing: -0.4em;
     }
-               
+
+    /*-----------ACCOMODATIONS---------*/
+
+    .central_accomodations
+    {
+        background-color: white;
+        width: 100%;    
+    }    
+
+    .hotel_bloc1, .hotel_bloc2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card_image
+    {
+        width: 600px;
+        max-width: none; 
+        height: auto;
+    }
+
+    .hotel 
+     {
+        width: 900px;
+        height: 420px; 
+        border-radius: 48px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        background-color: #ffffff;
+        border: 4px solid white;
+        box-shadow: 3px 3px 3px rgb(225, 225, 225);
+        max-height: 800px;
+        max-height: 420px;
+    }    
+
+    .hotel img
+    {
+        width: 100%;
+        height: 280px;
+        border-radius: 50px 50px 0 0;
+        margin-top: 1px;
+        padding: 8px;   
+    }
+
+
+    #activities_container
+    {
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+
 
    
 
