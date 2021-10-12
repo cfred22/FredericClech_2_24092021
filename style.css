@@ -334,7 +334,7 @@ nav ul
 
 .card_image
 {
-    width: 250px;
+    width: auto;
     max-width: 250px; 
 }
 
@@ -623,23 +623,54 @@ li .footer_links:hover
     font-size: larger;
 }
 
-
-
 /*---------------------- RESPONSIVE DESIGN IPHONE --------------------------*/
 
-@media all and (max-device-width: 800px)
+@media all and (max-width: 1024px)
+{
+    
+    #bloc_page
+    {
+        padding: 0 20px 0 20px;
+    }    
+    
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+        flex-direction: column;
+    }
+
+    .reservia_logo img
+    {
+        margin-top: 10px;
+        width: 180px;
+        margin-left: 40%;
+       
+    }
+
+    .filters_box
+    {
+        flex-direction: row;
+    }
+
+    
+}
+
+@media all and (max-device-width: 767px)
 
 {
     #research_filters
     {
-        padding: 30px;
+        padding: 35px;
     }
     
     header
     {
         flex-wrap: wrap;
         flex-direction: none;
-        padding: 30px;
+        padding: 35px;
     }
 
     #bloc_page
@@ -652,6 +683,7 @@ li .footer_links:hover
         margin-top: 10px;
         width: 300px;
         position: absolute;
+        margin-left: 10px;
     }
 
     .menu_ins    
@@ -689,6 +721,11 @@ li .footer_links:hover
     h1
     {
         font-size: 3.5em;
+    }
+
+    .txt_find_accomodations p
+    {
+        font-size: 1.9em;
     }
 
     .search
@@ -747,18 +784,18 @@ li .footer_links:hover
         visibility: visible;
     }
 
-
-    .txt_find_accomodations p
-    {
-        font-size: 35px;
-    }
-
      /*---------------- FILTRES ECO/FAMILY/ROMANCE/PETS + INFOS ----------------*/
 
-     .filters h3
+    .filters h3
     {
         font-size: 3em;
     }
+
+    .filters_box
+    {
+        flex-direction: none;
+    }
+
 
     header li
     {
@@ -807,6 +844,11 @@ li .footer_links:hover
         padding-right: 40px;
         max-width: max-content;
     }
+
+    .search_area:hover
+    {
+        border-radius: 65px 65px 65px 65px;
+    }   
 
     .info
     {
@@ -882,11 +924,6 @@ li .footer_links:hover
         font-size: 2.4em;
     }
 
-    .pop_txt_info .stars
-    {
-        font-size: 2em;
-        letter-spacing: -0.4em;
-    }
 
     /*-----------ACCOMODATIONS---------*/
 
@@ -913,15 +950,15 @@ li .footer_links:hover
     .hotel 
      {
         width: 900px;
-        height: 420px; 
+        height: 450px; 
         border-radius: 48px;
         margin-top: 10px;
         margin-bottom: 50px;
         background-color: #ffffff;
         border: 4px solid white;
         box-shadow: 3px 3px 3px rgb(225, 225, 225);
-        max-height: 800px;
-        max-height: 420px;
+        max-height: 450px;
+        max-height: 450px;
     }    
 
     .hotel img
@@ -933,12 +970,35 @@ li .footer_links:hover
         padding: 8px;   
     }
 
+    .title_card
+    {
+        font-size: 2.2em;
+        padding-left: 28px;
+    }
+
+    .price
+    {
+        font-size: 1.9em;
+        padding-left: 28px;
+    }
+
+    .fa-star
+    {
+        font-size: 2em;
+        letter-spacing: -0.8em;
+        padding-left: 28px;
+    }
+
+
+
+
 
     #activities_container
     {
         display: none;
     }
-    footer{
+    footer
+    {
         display: none;
     }
 
