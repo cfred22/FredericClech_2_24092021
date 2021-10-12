@@ -633,8 +633,11 @@ li .footer_links:hover
     
     header
     {
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
         margin-bottom: 35px;
+        flex-direction: column;
     }
 
     .reservia_logo img
