@@ -234,8 +234,8 @@ nav ul
     font-size: 1.2em;
     border: 2px solid #f2f2f2;
     border-radius: 45px 45px 45px 45px; 
-    margin: 0 0 0 20px; 
-    padding-right: 20px;
+    margin: 20px 0 0 20px; 
+    padding-right: 10px;
 }
 
 .search_area:hover
@@ -633,11 +633,8 @@ li .footer_links:hover
     
     header
     {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        display: block;
         margin-bottom: 35px;
-        flex-direction: column;
     }
 
     .reservia_logo img
@@ -668,7 +665,7 @@ li .footer_links:hover
     {
         flex-wrap: wrap;
         flex-direction: none;
-        padding: 35px;
+         padding: 35px;
     }
 
     #bloc_page
@@ -932,7 +929,8 @@ li .footer_links:hover
     .central_accomodations
     {
         background-color: white;
-        width: 100%;    
+        width: 100%;
+        min-height: 3300px;
     }    
 
     .hotel_bloc1, .hotel_bloc2
@@ -991,14 +989,49 @@ li .footer_links:hover
         padding-left: 28px;
     }
 
-
-
-
-
-    #activities_container
+    .fa-star
     {
-        display: none;
+        font-size: 2em;
+        letter-spacing: -0.8em;
+        padding-left: 28px;
     }
+
+    .activities
+    {
+        display: block;
+    }
+
+    .acti_first, .acti_second, .acti_three, .acti_four
+    {
+        width: 90%;
+        background-color: white;
+        border-radius: 20px;
+        margin: 10px;
+        align-content: center;
+    }    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
     footer
     {
         display: none;
