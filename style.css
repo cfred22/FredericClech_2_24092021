@@ -996,19 +996,34 @@ li .footer_links:hover
         padding-left: 28px;
     }
 
+    /*-----------ACTIVITIES---------*/
+
     .activities
     {
         display: block;
+        width: 100%;
     }
 
     .acti_first, .acti_second, .acti_three, .acti_four
     {
-        width: 90%;
+        width: 98%;
         background-color: white;
         border-radius: 20px;
-        margin: 10px;
+        padding: 40px;
         align-content: center;
-    }    
+        display: block;
+    } 
+
+
+    .card_pic, .card_pic2, .card_pic3, .card_pic4, .card_pic5, .card_pic6 
+    {
+        border-radius: 60px 60px 0 0;
+        height: 300px;
+    }
+
+
+    
+
 
 
 
