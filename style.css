@@ -621,7 +621,7 @@ li .footer_links:hover
     font-size: larger;
 }
 
-/*---------------------- RESPONSIVE DESIGN IPHONE --------------------------*/
+/*---------------------- RESPONSIVE DESIGN IPAD > IPHONE --------------------------*/
 
 @media all and (max-width: 1024px)
 {
@@ -649,7 +649,6 @@ li .footer_links:hover
     {
         flex-direction: row;
     }
-
     
 }
 
@@ -664,8 +663,7 @@ li .footer_links:hover
     header
     {
         flex-wrap: wrap;
-        flex-direction: none;
-         padding: 35px;
+        padding: 35px;
     }
 
     #bloc_page
@@ -790,10 +788,6 @@ li .footer_links:hover
         font-size: 3em;
     }
 
-    .filters_box
-    {
-        flex-direction: none;
-    }
 
 
     header li
@@ -930,7 +924,6 @@ li .footer_links:hover
     {
         background-color: white;
         width: 100%;
-        min-height: 3300px;
     }    
 
     .hotel_bloc1, .hotel_bloc2
@@ -1001,17 +994,15 @@ li .footer_links:hover
     .activities
     {
         display: block;
-        width: 100%;
     }
 
     .acti_first, .acti_second, .acti_three, .acti_four
     {
-        width: 98%;
         background-color: white;
         border-radius: 20px;
-        padding: 40px;
+        padding: 20px;
         align-content: center;
-        display: block;
+        width: 100%;
     } 
 
 
@@ -1019,6 +1010,7 @@ li .footer_links:hover
     {
         border-radius: 60px 60px 0 0;
         height: 300px;
+        width: 100%;
     }
 
 
