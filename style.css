@@ -1096,17 +1096,24 @@ li .footer_links:hover
     {
         font-size: 30px;
     }
+
+    /*-----------FOOTER--------*/
  
     .foot_3box
     {
         flex-direction: column;
-        align-content: center;
         height: max-content;
     }
 
     .footer_about, .footer_acco, .footer_ass, .footer_links
     {
         font-size: 30px;
+    }
+
+    footer nav
+
+    {
+        margin-left: 0;
     }
 
 
