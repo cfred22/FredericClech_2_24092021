@@ -697,8 +697,9 @@ li .footer_links:hover
     .central_popular
     {
         max-width: none;
-        width: 92%;
+        width: 100%;
         max-height: none;
+        margin-left: 0;
     }
 
     .hotel_pop_box
