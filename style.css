@@ -234,9 +234,9 @@ nav ul
 
 .search_area:hover
 {
-    background-color: #deebff;
+    background-color: #ecf3ff;
     border-radius: 45px 45px 45px 45px;
-    color: #0065fc;
+    color: #000000;
 }
 
 .info
@@ -1043,16 +1043,31 @@ li .footer_links:hover
 
     .title_activities h2
     {
-        font-size: 2.8em;
+        font-size: 2.2em;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+
+    .card_body
+    {
+        font-size: 30px;
     }
 
 
 
  
-    footer
+    .foot_3box
     {
-        display: none;
+        flex-direction: column;
+        align-content: center;
+        height: max-content;
     }
+
+    .footer_about, .footer_acco, .footer_ass, .footer_links
+    {
+        font-size: 30px;
+    }
+
 
 
    
