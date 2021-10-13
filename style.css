@@ -120,7 +120,7 @@ nav ul
     flex-wrap: wrap;
 }
 
-.underline
+.underline  /*------------------liseret séparateu-nav-------------------------*/
 {
     visibility: hidden;
     display: none;
@@ -155,8 +155,8 @@ nav ul
     font-weight: bold; 
     font-size: 19px;
     color: black;
-    padding-left: 50px;
-    margin-left: 20px;
+    padding-left: 10px;
+    margin: 0;
     height: 52px; 
     border: 1px solid #f2f2f2; 
 }
@@ -327,8 +327,7 @@ nav ul
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(225, 225, 225);
     width: 30%;
-    max-height: 200px;
-    max-height: 248px;
+    max-height: 60%;
 }
 
 .card_image
@@ -636,11 +635,15 @@ li .footer_links:hover
     #bloc_page
     {
         padding: 0 20px 0 20px;
-    }    
+    }   
+    
+    .central_2_mains 
+    {
+       flex-direction: column;
+    }
     
     header
     {
-        display: block;
         margin-bottom: 35px;
     }
 
@@ -649,11 +652,7 @@ li .footer_links:hover
         margin-top: 10px;
         width: 150px;
         margin-left: 40%;
-    }
-
-    nav
-    {
-        margin-left: 20%;
+        position: unset;
     }
 
     .filters_box
@@ -679,12 +678,42 @@ li .footer_links:hover
        transform: scaleX(1.3);
     }
 
-    .menu_acco_acti ul
+    .menu_acco_acti 
     {
-        margin-top: 0;
+       margin-top: 0;
+       justify-content: space-around;
+    }
+
+    .central_accomodations
+    {
+        width: 100%;
+    }
+
+    .card_image
+    {
+        max-width: none;
+    }
+
+    .central_popular
+    {
+        max-width: none;
+        width: 92%;
+        max-height: none;
+    }
+
+    .hotel_pop_box
+    {
+        max-height: none;
     }
 
 
+    .card_pop_image
+    {
+        min-width: 40%;
+        object-fit: cover;
+        height: 150px;
+    }
+    
     
 }
 
@@ -695,12 +724,17 @@ li .footer_links:hover
     {
         padding: 35px;
     }
+
+    h1
+    {
+        font-size: 3em;
+        margin-top:  0;
+    }
     
     header
     {
-        flex-wrap: wrap;
         flex-direction: none;
-         padding: 35px;
+        padding: 35px;
     }
 
     #bloc_page
@@ -758,12 +792,6 @@ li .footer_links:hover
        transform: scaleX(1.3);
     }
 
-    h1
-    {
-        font-size: 3em;
-        margin-top:  0;
-    }
-
     .txt_find_accomodations > p
     {
         font-size: 28px;
@@ -784,7 +812,6 @@ li .footer_links:hover
         border-radius: 50px 0 0 50px;
         font-size: 50px; 
         padding-top: 40px;
-        position: absolute !important;
     }
     
     .search_space
@@ -795,7 +822,6 @@ li .footer_links:hover
         padding-left: 180px;
         border: 4px solid #f2f2f2;
         border-right: none;
-        border-radius: 40px 0 0 40px;
         margin-right: 50px;
     }
 
@@ -806,7 +832,10 @@ li .footer_links:hover
 
     .fa-search 
     {
+        display: initial;
         background-color: #0065fc;
+        font-size: 3em;
+        color: rgb(255, 255, 255);
         border-radius: 45px 45px 45px 45px;
         height: 135px;
         width: 125px;
@@ -814,13 +843,6 @@ li .footer_links:hover
         padding-top: 40px;
         position: absolute;
         right: 30px;
-    }
-
-    .fa-search
-    {
-        display: initial;
-        font-size: 3em;
-        color: rgb(255, 255, 255);
         cursor: pointer;
     }
 
@@ -841,7 +863,6 @@ li .footer_links:hover
         flex-direction: none;
     }
 
-
     header li
     {
         padding-right: 130px;
@@ -850,7 +871,6 @@ li .footer_links:hover
     .fa-money-bill-wave
     {
         text-align: center;  
-        color: #0065fc;
         border-radius: 50%;
         height: 125px;
         padding: 35px;
@@ -865,7 +885,7 @@ li .footer_links:hover
         margin-bottom: 30px;
     }
      
-     .fa-child, .fa-heart, .fa-dog 
+    .fa-child, .fa-heart, .fa-dog 
     {
         
         padding-top: 35px;
@@ -881,7 +901,7 @@ li .footer_links:hover
         font-size: 50px;
     }
 
-     .search_area
+    .search_area
     {
         font-size: 2.5em;
         border: 4px solid #f2f2f2;
@@ -967,7 +987,7 @@ li .footer_links:hover
     }
 
 
-    /*-----------ACCOMODATIONS---------*/
+    /*-----------ACCOMODATIONS--RESPONSIVE------*/
 
     .central_accomodations
     {
@@ -983,7 +1003,6 @@ li .footer_links:hover
 
     .hotel_bloc1, .hotel_bloc2
     {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -992,7 +1011,6 @@ li .footer_links:hover
     {
         font-size: 3.2em;
     }
-
 
     .card_image
     {
@@ -1009,18 +1027,14 @@ li .footer_links:hover
         margin-top: 10px;
         margin-bottom: 50px;
         background-color: #ffffff;
-        border: 4px solid white;
         box-shadow: 3px 3px 3px rgb(225, 225, 225);
-        max-height: 450px;
         max-height: 450px;
     }    
 
     .hotel img
     {
-        width: 100%;
         height: 280px;
         border-radius: 50px 50px 0 0;
-        margin-top: 1px;
         padding: 8px;   
     }
 
@@ -1066,8 +1080,6 @@ li .footer_links:hover
     .acti_first, .acti_second, .acti_three, .acti_four
     {
         width: 98%;
-        background-color: white;
-        border-radius: 20px;
         padding: 40px;
         align-content: center;
         display: block;
@@ -1110,38 +1122,9 @@ li .footer_links:hover
     }
 
     footer nav
-
     {
         margin-left: 0;
     }
-
-
-
-   
-
-
-
-
-
-
-
-    
-    
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-    
 }
 
 
