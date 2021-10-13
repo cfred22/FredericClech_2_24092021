@@ -143,10 +143,9 @@ nav ul
     border-radius: 15px 0 0 15px;
     background-color: #f2f2f2;
     color: black;
-    text-align-last: center;
+    text-align: center;
     font-size: 18px; 
     padding-top: 15px;
-    position: absolute;
 }
 
 .search_space
