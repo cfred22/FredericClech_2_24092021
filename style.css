@@ -732,7 +732,6 @@ li .footer_links:hover
     
     header
     {
-        flex-direction: none;
         padding: 35px;
     }
 
@@ -856,11 +855,6 @@ li .footer_links:hover
     .filters h3
     {
         font-size: 3em;
-    }
-
-    .filters_box
-    {
-        flex-direction: none;
     }
 
     header li
