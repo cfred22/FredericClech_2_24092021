@@ -693,7 +693,7 @@ li .footer_links:hover
     .card_pop_image
     {
         height: 145px;
-        max-width: 80%px;
+        max-width: 80%;
         min-width: 30%;
         object-fit: cover;
         border-radius: 20px 0 0 20px;
