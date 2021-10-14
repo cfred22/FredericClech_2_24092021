@@ -631,8 +631,6 @@ li .footer_links:hover
 
 @media all and (max-width: 1024px)
 {
-    
-
     .central_2_mains 
     {
        flex-direction: column;
@@ -701,7 +699,7 @@ li .footer_links:hover
     {
         width: 100px;
         position: absolute;
-        margin-left: 2.5px;
+        margin-left: 15px;
     }
 
     nav ul
@@ -758,13 +756,13 @@ li .footer_links:hover
 
     .txt_find_accomodations p
     {
-        margin: 15px 0 0 15px;
+        margin: 20px 0 0 15px;
     }
 
     .search
     {
         display: flex;
-        margin: 20px 20px 25px 20px;
+        margin: 20px 20px 10px 20px;
     }
  
     .research
@@ -778,15 +776,16 @@ li .footer_links:hover
         font-weight: bold; 
         color: rgb(0, 0, 0);
         padding-left: 20px;
+        border-radius: 0 20px 20px 0;
         margin: 0;
         height: 52px; 
-        width: 80%;
+        width: 86%;
         border: 1px solid #f2f2f2; 
     }
 
     .fa-search 
     {
-        display: initial;
+        display: block;
         background-color: #0065fc;
         font-size: 1.2em;
         color: rgb(255, 255, 255);
@@ -797,6 +796,7 @@ li .footer_links:hover
         padding-top: 15px;
         position: absolute;
         right: 15px;
+        margin-right: 2%;
         cursor: pointer;
     }
 
@@ -809,8 +809,15 @@ li .footer_links:hover
 
     .filters
     {
-        margin: 15px 0 0 15px;
+        margin: 15px 0 0 10px;
     }
+
+    .filters h3
+    {
+        margin-left: 0;
+    }
+    
+    
     
     p
     {
@@ -853,12 +860,20 @@ li .footer_links:hover
         flex-direction: column;
     }
 
+    .hotel_bloc3
+    {
+        border-radius: 15px 15px 15px 15px;
+        background-color: white;
+        margin: 0 0 0 30px;
+    }
+
     .central_popular
     {
         margin-left: 0;
         width: 100%;
         margin: 0;
         border-radius: 0;
+        max-width: 100%;
     }
 
 
@@ -870,14 +885,25 @@ li .footer_links:hover
     {
         background-color: white;
         width: 100%;
-        min-height: 3300px;
+        min-height: 1500px;
     }  
+
+    .hotel 
+    {
+        background-color: #ffffff;
+        border: 4px solid white;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px rgb(225 225 225);
+        width: 100%;
+        margin-bottom: 25px;
+    } 
 
   
     .hotel_bloc1, .hotel_bloc2
     {
         flex-direction: column;
         align-items: center;
+
     }
 
 
@@ -899,32 +925,32 @@ li .footer_links:hover
     .acti_first, .acti_second, .acti_three, .acti_four
     {
         width: 98%;
-        padding: 40px;
+        padding: 15px;
         align-content: center;
         display: block;
     } 
 
     .card_pic, .card_pic2, .card_pic3, .card_pic4, .card_pic5, .card_pic6 
     {
-        border-radius: 60px 60px 0 0;
-        height: 300px;
+        border-radius: 20px 20px 0 0;
+        height: 114px;
     }
 
     .acti_second_a
     {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     .title_activities h2
     {
-        font-size: 2.2em;
-        margin-left: 40px;
+        font-size: 1.8em;
+        margin-left: 15px;
         margin-top: 80px;
     }
 
     .card_body
     {
-        font-size: 30px;
+        font-size: 1.2em;
     }
 
     /*-----------FOOTER--------*/
@@ -937,7 +963,7 @@ li .footer_links:hover
 
     .footer_about, .footer_acco, .footer_ass, .footer_links
     {
-        font-size: 30px;
+        font-size: 1.2em;
     }
 
     footer nav
