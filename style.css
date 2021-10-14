@@ -125,15 +125,12 @@ nav ul
     visibility: hidden;
     display: none;
 }
-
-
 /*------------------ RECHERCHE ET MARKER POSITION -------------------------*/
 
 .search
 {
    display: flex;
    margin: 20px 0 25px 0;
-   
 }  
  
 .fa-map-marker-alt
@@ -155,7 +152,7 @@ nav ul
     font-weight: bold; 
     font-size: 19px;
     color: black;
-    padding-left: 2px;
+    padding-left: 10px;
     margin: 0;
     height: 52px; 
     border: 1px solid #f2f2f2; 
@@ -577,7 +574,6 @@ footer
 {
     width: 1440px;
     font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
 .foot_3box
@@ -687,7 +683,6 @@ li .footer_links:hover
         width: 100%;
         max-width:100%;
         margin-left: 0;
-
     }
     
     .card_pop_image
@@ -757,7 +752,6 @@ li .footer_links:hover
         width: 767px;
         align-items: flex-end;
         margin-right: 15px;
-        
     }
 
     .menu:before, .menu_ins:before        
@@ -919,7 +913,6 @@ li .footer_links:hover
         border-radius: 0;
         max-width: 100%;
     }
-
 
      /*-----------ACCOMODATIONS***** RESPONSIVE PHONE ****---------*/ 
 
