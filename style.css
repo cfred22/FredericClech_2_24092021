@@ -627,16 +627,12 @@ li .footer_links:hover
     font-size: larger;
 }
 
-/*---------------------- RESPONSIVE DESIGN IPAD/IPHONE --------------------------*/
+/*---------------------- RESPONSIVE DESIGN TABLETTE IPAD --------------------------*/
 
 @media all and (max-width: 1024px)
 {
     
-    #bloc_page
-    {
-        padding: 0 20px 0 20px;
-    }   
-    
+
     .central_2_mains 
     {
        flex-direction: column;
@@ -678,11 +674,6 @@ li .footer_links:hover
        transform: scaleX(1.3);
     }
 
-    .menu_acco_acti 
-    {
-       margin-top: 0;
-       justify-content: space-around;
-    }
 
     .central_accomodations
     {
@@ -694,47 +685,13 @@ li .footer_links:hover
         max-width: none;
     }
 
-    .central_popular
-    {
-        max-width: none;
-        width: 100%;
-        max-height: none;
-        margin-left: 0;
-    }
-
-    .hotel_pop_box
-    {
-        max-height: none;
-    }
-
-    .card_pop_image
-    {
-        min-width: 40%;
-        object-fit: cover;
-        height: 150px;
-    }
-    
 }
 
-@media all and (max-device-width: 767px)
+/*------------------ RESPONSIVE TABETTE SMARTPHONE IPHONE ---------------------*/
+
+@media screen and (max-width: 768px) 
 
 {
-    #research_filters
-    {
-        padding: 35px;
-    }
-
-    h1
-    {
-        font-size: 3em;
-        margin-top:  0;
-    }
-    
-    header
-    {
-        padding: 35px;
-    }
-
     #bloc_page
     {
         padding: 0;
@@ -742,19 +699,27 @@ li .footer_links:hover
 
     .reservia_logo img
     {
-        margin-top: 10px;
-        width: 300px;
+        width: 100px;
         position: absolute;
-        margin-left: 10px;
+        margin-left: 2.5px;
+    }
+
+    nav ul
+    {
+        flex-wrap: nowrap;
+    }
+
+    header li
+    {
+        margin: 0 5px 3x 30px;
     }
 
     .menu_ins    
     {
-        font-weight: 500;
-        padding-top: 40px;
+        font-weight: 700;
+        padding-top: 8px;
+        padding-right: 12px;
         padding-bottom: 20px;
-        padding-right: 25px;
-        padding-bottom: 150px;
     }
     
     .menu_acco_acti
@@ -763,85 +728,75 @@ li .footer_links:hover
         flex-direction: column-reverse;
         align-items: flex-end;
         flex-wrap: nowrap;
-        font-size: 3em;
+        
     }
 
-    nav ul
+    .menu:before, .menu_ins:before        
     {
-       align-content: space-between;
-       flex-wrap: nowrap;
+       height: 0.23em;
+       margin-top: 60px;
+       margin-bottom: -38px;
+       transition: width 0.1s;
+       transform: scaleX(1.3);
     }
 
     .underline
     {
         background: #F2F2F2;
         width: 100%;
-        height: 6px;
+        height: 4px;
         visibility: visible;
         display: block;
     }
 
-    .menu:before, .menu_ins:before        
+    .txt_find_accomodations h1 
     {
-       height: 0.15em;
-       margin-top: 120px;
-       margin-bottom: -111px;
-       transition: width 0.1s;
-       transform: scaleX(1.3);
+        font-size: 1.4em;
+        margin-top: 10px;
+        margin: 15px 0 0 15px;
     }
 
-    .txt_find_accomodations > p
+    .txt_find_accomodations p
     {
-        font-size: 28px;
+        margin: 15px 0 0 15px;
     }
 
     .search
     {
-       justify-content: space-between;
-       height: 135px;
-       margin-top: 50px;
-       justify-content: flex-start;
-    }  
-
-    .fa-map-marker-alt
-    {
-        width: 135px;
-        height: 135px;
-        border-radius: 50px 0 0 50px;
-        font-size: 50px; 
-        padding-top: 40px;
+        display: flex;
+        margin: 20px 20px 25px 20px;
     }
-    
-    .search_space
-    {
-        font-size: 45px;
-        height: 135px; 
-        width: 90%;
-        padding-left: 180px;
-        border: 4px solid #f2f2f2;
-        border-right: none;
-        margin-right: 50px;
-        padding-left: 40px;
-    }
-
+ 
     .research
     {
         display: none;
+    }
+
+    .search_space
+    {
+        border-image: initial;
+        font-weight: bold; 
+        color: rgb(0, 0, 0);
+        padding-left: 20px;
+        margin: 0;
+        height: 52px; 
+        width: 80%;
+        border: 1px solid #f2f2f2; 
     }
 
     .fa-search 
     {
         display: initial;
         background-color: #0065fc;
-        font-size: 3em;
+        font-size: 1.2em;
         color: rgb(255, 255, 255);
-        border-radius: 45px 45px 45px 45px;
-        height: 135px;
-        width: 125px;
+        border-radius: 18px;
+        height: 52px;
+        width: 52px;
         text-align: center;
-        padding-top: 40px;
+        padding-top: 15px;
         position: absolute;
-        right: 30px;
+        right: 15px;
         cursor: pointer;
     }
 
@@ -850,136 +805,66 @@ li .footer_links:hover
         visibility: visible;
     }
 
-     /*---------------- FILTRES ECO/FAMILY/ROMANCE/PETS + INFOS ----------------*/
+    /*--------- FILTRES ECO ****RESPONSIVE PHONE ****----------------*/
 
-    .filters h3
+    .filters
     {
-        font-size: 3em;
+        margin: 15px 0 0 15px;
     }
+    
+    p
+    {
+        font-size: 0.9em;
+    }
+    
 
-    header li
+    .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog 
     {
-        padding-right: 130px;
-    }
-      
-    .fa-money-bill-wave
-    {
-        text-align: center;  
-        border-radius: 50%;
-        height: 125px;
-        padding: 35px;
-        width: 125px;
-        margin-right: 10px;
-        font-size: 2em;   
-    }
-
-    .eco, .family, .romantic, .pets 
-    {
-        margin-right: 30px;
-        margin-bottom: 30px;
-    }
-     
-    .fa-child, .fa-heart, .fa-dog 
-    {
-        
-        padding-top: 35px;
-        height: 125px;
-        width: 125px; 
-        min-width: 125px;
-        margin-right: 10px;
-        font-size: 2em; 
-    }
-
-    .search_area i
-    {
-        font-size: 50px;
+        padding: 10px;
+        height: 50px;
+        width: 50px;  
+        margin-right: 10px; 
+        font-size: 1.2em;
+        padding-top: 14px;
+        text-align: center;
     }
 
     .search_area
     {
-        font-size: 2.5em;
-        border: 4px solid #f2f2f2;
-        border-radius: 65px 65px 65px 65px; 
-        margin: 0 0 0 20px; 
-        padding-right: 40px;
-        max-width: none;
+        font-weight: bolder;
+        font-size: 1.2em;
+        border: 3px solid #f2f2f2;
+        padding-right: 15px;
+        margin-left: 6px;
     }
 
-    .search_area:hover
-    {
-        border-radius: 65px 65px 65px 65px;
-    }   
-
-    .info
-    {
-        font-size: 2.4em;
-        margin-bottom: 30px;
-    }
-
-    .fa-info
-    {
-        margin-right: 50px;
-        width: 55px;
-        height: 50px;
-    }
-
-    /*----------- MENU CENTRAL ***** RESPONSIVE PHONE ****---------*/
-    
-    /*-----------POPULAR---------*/
+    /*----------- MENU CENTRAL ***** RESPONSIVE PHONE ****---------*/    
+    /*------POPULAR------*/
 
     .central_2_mains
     {
         flex-direction: column-reverse;
     }
 
-    .central_popular 
+
+    .hotel_bloc1, .hotel_bloc2 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .central_popular
     {
-        border-radius: 0;
-        max-height: 100%;
-        margin-top: 0;
-        max-width: 100%;
-        width: 100%;
         margin-left: 0;
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
     }
 
-    .card_pop_image
-     {
-        min-width: 300px;
-        max-width: 300px;
-        border-radius: 30px 0 0 30px;
-        padding: 15px;
-        width: 300px;
-        height: 300px;
-    }   
 
-    .title_card_popu
-    {
-        font-size: 1.8em;
-    }
+ 
 
-    .hotel_pop_box 
-    {
-        border-radius: 30px;
-        max-height: 300px; 
-    }
-
-    .title_card_popu
-    {
-        font-size: 2.4em;
-        margin-left: 20px;
-    }
-
-    .fa-chart-line 
-    {
-        font-size: 3.2em;
-    }
-
-    .price_popu
-    {
-        font-size: 2.4em;
-    }
-
-    /*-----------ACCOMODATIONS--RESPONSIVE------*/
+     /*-----------ACCOMODATIONS***** RESPONSIVE PHONE ****---------*/ 
 
     .central_accomodations
     {
@@ -988,21 +873,13 @@ li .footer_links:hover
         min-height: 3300px;
     }  
 
-    .central_accomodations h2
-    {
-        font-size: 2.8em;
-    }  
-
+  
     .hotel_bloc1, .hotel_bloc2
     {
         flex-direction: column;
         align-items: center;
     }
 
-    .title_popu-chart h2
-    {
-        font-size: 3.2em;
-    }
 
     .card_image
     {
@@ -1011,56 +888,6 @@ li .footer_links:hover
         height: auto;
     }
 
-    .hotel 
-     {
-        width: 900px;
-        height: 450px; 
-        border-radius: 48px;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        background-color: #ffffff;
-        box-shadow: 3px 3px 3px rgb(225, 225, 225);
-        max-height: 450px;
-    }    
-
-    .hotel img
-    {
-        height: 280px;
-        border-radius: 50px 50px 0 0;
-        padding: 8px;   
-    }
-
-    .title_card
-    {
-        font-size: 2.2em;
-        padding-left: 28px;
-    }
-
-    .price
-    {
-        font-size: 1.9em;
-        padding-left: 28px;
-    }
-
-    .fa-star
-    {
-        font-size: 2em;
-        letter-spacing: -0.8em;
-        padding-left: 28px;
-    }
-
-    .fa-star
-    {
-        font-size: 2em;
-        letter-spacing: -0.8em;
-        padding-left: 28px;
-    }
-
-    .central_accomodations h3
-    {
-        font-size: 40px;
-        padding-top: 0;
-    }
 
     /*-----------ACTIVITIES---------*/
 
