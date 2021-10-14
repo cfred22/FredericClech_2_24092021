@@ -748,9 +748,7 @@ li .footer_links:hover
         font-weight: 700;
         padding-top: 8px;
         padding-bottom: 15px;
-        margin-right: 15px;
     }
-
     
     .menu_acco_acti
     {
@@ -864,7 +862,7 @@ li .footer_links:hover
         height: 50px;
         width: 50px;  
         margin-right: 10px; 
-        font-size: 1.2em;
+        font-size: 1.1em;
         padding-top: 14px;
         text-align: center;
     }
@@ -876,6 +874,19 @@ li .footer_links:hover
         border: 3px solid #f2f2f2;
         padding-right: 15px;
         margin-left: 6px;
+    }
+
+    .info
+    {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .fa-info
+    {
+        height: 25px;
+        margin-left: 15px;
     }
 
     /*----------- MENU CENTRAL ***** RESPONSIVE PHONE ****---------*/    
@@ -996,7 +1007,7 @@ li .footer_links:hover
 
     .footer_about, .footer_acco, .footer_ass, .footer_links
     {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     footer nav
