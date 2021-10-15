@@ -911,8 +911,13 @@ li .footer_links:hover
 
     .central_accomodations h3
     {
-        padding-left: 10px;
-    }  
+        padding-left: 20px;
+    } 
+    
+    .central_accomodations h2
+    {
+        padding-left: 33px;
+    }   
 
     .hotel 
     {
@@ -927,7 +932,6 @@ li .footer_links:hover
     {
         flex-direction: column;
         align-items: center;
-
     }
 
     .card_image
@@ -966,7 +970,7 @@ li .footer_links:hover
     .title_activities h2
     {
         font-size: 1.4em;
-        margin-left: 15px;
+        margin-left: 23px;
         margin-top: 80px;
     }
 
