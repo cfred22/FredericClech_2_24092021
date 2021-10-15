@@ -152,10 +152,11 @@ nav ul
     font-weight: bold; 
     font-size: 19px;
     color: black;
-    padding-left: 10px;
+    padding-left: 20px;
     margin: 0;
     height: 52px; 
-    border: 1px solid #f2f2f2; 
+    border: 1px solid #f2f2f2;
+    width: 21%; 
 }
 
 .fa-search
@@ -198,28 +199,17 @@ nav ul
     flex-wrap: wrap;
 }
 
-.fa-money-bill-wave
+.fa-money-bill-wave,.fa-child, .fa-heart, .fa-dog 
 {
-    background-color: #deebff;   
-    color: #0065fc;
-    border-radius: 50%;
-    padding: 15px;
-    height: 53px;
-    width: 53px;  
-    margin-right: 10px; 
-}
-
-.fa-child, .fa-heart, .fa-dog 
-{
-   
     background-color: #deebff;
     text-align: center;
     color: #0065fc;
     border-radius: 50%;
-    padding: 15px;  
+    padding: 15px; 
     height: 53px;
     width: 53px;  
     margin-right: 10px;
+    font-size: 1.1em;
 }
 
 .search_area
@@ -232,7 +222,7 @@ nav ul
     border: 2px solid #f2f2f2;
     border-radius: 45px 45px 45px 45px; 
     margin: 20px 0 0 20px; 
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .search_area:hover
@@ -275,8 +265,6 @@ nav ul
     border-radius: 20px;
     width: 70%;    
     margin-top: 25px;
-    max-height: 625px; 
-    height: 625px;     
 }
 
 .central_accomodations h2
@@ -305,6 +293,7 @@ nav ul
 {
     display: flex;
     justify-content: space-around;
+    max-height: 220px;
 }
 
 .hotel_bloc1
@@ -479,7 +468,6 @@ nav ul
 .title_activities h2
 {
     padding-left: 10px;
-    padding-top: 20px;
     font-size: 1.4em;
 }
 
@@ -625,7 +613,7 @@ li .footer_links:hover
 
 /*---------------------- RESPONSIVE DESIGN TABLETTE IPAD --------------------------*/
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 1140px)
 {
     .central_2_mains 
     {
@@ -667,6 +655,12 @@ li .footer_links:hover
        transition: width 0.1s;
        transform: scaleX(1.3);
     }
+    
+    .search_space
+    {
+
+        width: 90% !important; 
+    }
 
     .central_accomodations
     {
@@ -688,8 +682,7 @@ li .footer_links:hover
     .card_pop_image
     {
         height: 145px;
-        max-width: 80%;
-        min-width: 30%;
+        min-width: 50%;
         object-fit: cover;
         border-radius: 20px 0 0 20px;
         padding: 5px 5px 5px 5px;
@@ -799,15 +792,9 @@ li .footer_links:hover
 
     .search_space
     {
-        border-image: initial;
-        font-weight: bold; 
-        color: rgb(0, 0, 0);
-        padding-left: 20px;
-        border-radius: 0 20px 20px 0;
-        margin: 0;
-        height: 52px; 
-        width: 86%;
-        border: 1px solid #f2f2f2; 
+        border-radius: 0;
+        border-right: none;
+        width: 80% !important;
     }
 
     .fa-search 
@@ -855,10 +842,7 @@ li .footer_links:hover
         padding: 10px;
         height: 50px;
         width: 50px;  
-        margin-right: 10px; 
-        font-size: 1.1em;
         padding-top: 14px;
-        text-align: center;
     }
 
     .search_area
@@ -896,6 +880,7 @@ li .footer_links:hover
         display: flex;
         justify-content: space-around;
         flex-direction: column;
+        max-height: none;
     }
 
     .hotel_bloc3
@@ -912,6 +897,8 @@ li .footer_links:hover
         margin: 0;
         border-radius: 0;
         max-width: 100%;
+        padding: 30px 30px 0 0;
+
     }
 
      /*-----------ACCOMODATIONS***** RESPONSIVE PHONE ****---------*/ 
@@ -920,7 +907,6 @@ li .footer_links:hover
     {
         background-color: white;
         width: 100%;
-        min-height: 1500px;
     }  
 
     .central_accomodations h3
@@ -962,7 +948,7 @@ li .footer_links:hover
     .acti_first, .acti_second, .acti_three, .acti_four
     {
         width: 96%;
-        padding: 15px;
+        padding: 23px;
         align-content: center;
         display: block;
     } 
