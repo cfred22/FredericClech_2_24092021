@@ -293,7 +293,7 @@ nav ul
 {
     display: flex;
     justify-content: space-around;
-    max-height: 220px;
+    max-height: 240px;
 }
 
 .hotel_bloc1
@@ -613,7 +613,7 @@ li .footer_links:hover
 
 /*---------------------- RESPONSIVE DESIGN TABLETTE IPAD --------------------------*/
 
-@media all and (max-width: 1140px)
+@media all and (max-width: 1024px)
 {
     .central_2_mains 
     {
@@ -629,7 +629,7 @@ li .footer_links:hover
     {
         margin-top: 10px;
         width: 150px;
-        margin-left: 40%;
+        margin-left: 10%;
         position: unset;
     }
 
@@ -689,10 +689,32 @@ li .footer_links:hover
     }
 
 }
+/*---------------- RESPONSIVE TABLETTE MINI // INTERMÉDIAIRE -----------*/
+
+@media screen and (max-width: 767px) 
+{
+    .card_pic, .card_pic2, .card_pic3, .card_pic4, .card_pic5, .card_pic6 
+    {
+        border-radius: 20px 20px 0 0;
+        height: 200px;
+    }
+    .activities
+    {
+        display: block;
+    }
+
+    .acti_first, .acti_second, .acti_three, .acti_four
+    {
+        width: 96%;
+        padding: 23px;
+        align-content: center;
+        display: block;
+    } 
+}
 
 /*------------------ RESPONSIVE SMARTPHONE IPHONE ---------------------*/
 
-@media screen and (max-width: 768px) 
+@media screen and (max-width: 600px) 
 
 {
     #bloc_page
