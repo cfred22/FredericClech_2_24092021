@@ -560,9 +560,9 @@ nav ul
 
 footer
 {
-    width: 100%;
     font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
+    max-width: 1440px;
 }
 
 .foot_3box
@@ -688,6 +688,15 @@ li .footer_links:hover
         border-radius: 20px 0 0 20px;
         padding: 5px 5px 5px 5px;
     }
+
+    footer
+    {
+        width: 100%;
+        font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
+        margin: auto;
+    }
+
+
 
 }
 /*------------------ RESPONSIVE TABLETTE MINI // INTERMÉDIAIRE -----------*/
@@ -1003,8 +1012,9 @@ li .footer_links:hover
         font-size: 1.2em;
     }
 
-    /*-----------FOOTER-------- RESPONSIVE PHONE-------*/
+    /*-----------FOOTER-------- IPHONE-------*/
   
+   
     .foot_3box
     {
         flex-direction: column;
