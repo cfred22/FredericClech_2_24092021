@@ -17,6 +17,7 @@ body
     margin: 0;
 }
 
+
 #bloc_page
 {
     display: flex;
@@ -689,7 +690,7 @@ li .footer_links:hover
     }
 
 }
-/*---------------- RESPONSIVE TABLETTE MINI // INTERMÉDIAIRE -----------*/
+/*------------------ RESPONSIVE TABLETTE MINI // INTERMÉDIAIRE -----------*/
 
 @media screen and (max-width: 767px) 
 {
@@ -710,6 +711,7 @@ li .footer_links:hover
         align-content: center;
         display: block;
     } 
+
 }
 
 /*------------------ RESPONSIVE SMARTPHONE IPHONE ---------------------*/
@@ -1002,7 +1004,8 @@ li .footer_links:hover
     }
 
     /*-----------FOOTER--------*/
- 
+
+  
     .foot_3box
     {
         flex-direction: column;
@@ -1019,30 +1022,5 @@ li .footer_links:hover
         margin-left: 0;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
 
 
