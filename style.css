@@ -298,7 +298,7 @@ nav ul
 
 .hotel_bloc1
 {
-    margin: 30px;
+    margin: 30px 30px 0 30px;
 }
 
 .hotel_bloc2
@@ -696,8 +696,6 @@ li .footer_links:hover
         margin: auto;
     }
 
-
-
 }
 /*------------------ RESPONSIVE TABLETTE MINI // INTERMÉDIAIRE -----------*/
 
@@ -720,6 +718,21 @@ li .footer_links:hover
         align-content: center;
         display: block;
     } 
+
+    .acti_second_a
+    {
+        margin-bottom: 50px;
+    }
+
+    .acti_second, .acti_three
+    {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+
+
+
 
 }
 
@@ -852,7 +865,7 @@ li .footer_links:hover
         visibility: visible;
     }
 
-    /*--------- FILTRES ECO ****RESPONSIVE PHONE ****----------------*/
+    /*--------- FILTRES ECO ****RESPONSIVE PHONE ****-----*/
 
     .filters
     {
@@ -958,7 +971,7 @@ li .footer_links:hover
         border-radius: 20px;
         box-shadow: 3px 3px 3px rgb(225 225 225);
         width: 100%;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     } 
   
     .hotel_bloc1, .hotel_bloc2
@@ -995,10 +1008,6 @@ li .footer_links:hover
         height: 114px;
     }
 
-    .acti_second_a
-    {
-        margin-bottom: 30px;
-    }
 
     .title_activities h2
     {
