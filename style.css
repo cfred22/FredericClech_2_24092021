@@ -11,7 +11,6 @@
 
 body
 {
-    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0;
@@ -561,8 +560,9 @@ nav ul
 
 footer
 {
-    width: 1440px;
+    width: 100%;
     font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
 }
 
 .foot_3box
@@ -965,7 +965,7 @@ li .footer_links:hover
         height: auto;
     }
 
-    /*-----------ACTIVITIES---------*/
+    /*-----------ACTIVITIES------RESPONSIVE PHONE---*/
 
     .activities
     {
@@ -1003,8 +1003,7 @@ li .footer_links:hover
         font-size: 1.2em;
     }
 
-    /*-----------FOOTER--------*/
-
+    /*-----------FOOTER-------- RESPONSIVE PHONE-------*/
   
     .foot_3box
     {
