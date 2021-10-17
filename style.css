@@ -2,10 +2,7 @@
 
 *, *:before, *:after   /*-- box-sizing pour gérer les dimensions  --*/
 {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+    box-sizing: border-box;  /*- résoudre pbm padding & marging pour calcul des box et des % par exemple-*/
 }
 
 body
